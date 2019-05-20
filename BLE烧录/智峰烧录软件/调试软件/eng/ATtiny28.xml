@@ -1,0 +1,183 @@
+<ZFPART>
+  <PART_NAME>ATtiny28</PART_NAME>
+  <SIGNATURE>0x1e9107</SIGNATURE>
+  <PROG_FLASH>2048</PROG_FLASH>
+  <FlashPageSize>1</FlashPageSize>
+  <WD_ERASE>50</WD_ERASE>
+  <WD_Flash>30000</WD_Flash>
+  <WD_EEPROM>50000</WD_EEPROM>
+  <WD_FUSE>9</WD_FUSE>
+  <WD_LOCK>9</WD_LOCK>
+  <WD_RESET>100</WD_RESET>
+  <FUSE0>
+    <NMB_TEXT>17</NMB_TEXT>
+    <TEXT0>
+      <MASK>0x10</MASK>
+      <VALUE>0x00</VALUE>
+      <TEXT>Internal load capacitors between XTAL1/XTAL2 and GND</TEXT>
+    </TEXT0>
+    <TEXT1>
+      <MASK>0x0F</MASK>
+      <VALUE>0x0F</VALUE>
+      <TEXT>CKSEL=1111 External Crystal / Ceramic Resonator</TEXT>
+    </TEXT1>
+    <TEXT2>
+      <MASK>0x0F</MASK>
+      <VALUE>0x0E</VALUE>
+      <TEXT>CKSEL=1110 External Crystal / Ceramic Resonator</TEXT>
+    </TEXT2>
+    <TEXT3>
+      <MASK>0x0F</MASK>
+      <VALUE>0x0D</VALUE>
+      <TEXT>CKSEL=1101 External Crystal / Ceramic Resonator</TEXT>
+    </TEXT3>
+    <TEXT4>
+      <MASK>0x0F</MASK>
+      <VALUE>0x0C</VALUE>
+      <TEXT>CKSEL=1100 External Crystal / Ceramic Resonator</TEXT>
+    </TEXT4>
+    <TEXT5>
+      <MASK>0x0F</MASK>
+      <VALUE>0x0B</VALUE>
+      <TEXT>CKSEL=1011 External Crystal / Ceramic Resonator</TEXT>
+    </TEXT5>
+    <TEXT6>
+      <MASK>0x0F</MASK>
+      <VALUE>0x0A</VALUE>
+      <TEXT>CKSEL=1010 External Crystal / Ceramic Resonator</TEXT>
+    </TEXT6>
+    <TEXT7>
+      <MASK>0x0F</MASK>
+      <VALUE>0x09</VALUE>
+      <TEXT>CKSEL=1001 External Low-Frequency Crystal</TEXT>
+    </TEXT7>
+    <TEXT8>
+      <MASK>0x0F</MASK>
+      <VALUE>0x08</VALUE>
+      <TEXT>CKSEL=1000 External Low-Frequency Crystal</TEXT>
+    </TEXT8>
+    <TEXT9>
+      <MASK>0x0F</MASK>
+      <VALUE>0x07</VALUE>
+      <TEXT>CKSEL=0111 External RC Ocsillator</TEXT>
+    </TEXT9>
+    <TEXT10>
+      <MASK>0x0F</MASK>
+      <VALUE>0x06</VALUE>
+      <TEXT>CKSEL=0110 External RC Ocsillator</TEXT>
+    </TEXT10>
+    <TEXT11>
+      <MASK>0x0F</MASK>
+      <VALUE>0x05</VALUE>
+      <TEXT>CKSEL=0101 External RC Ocsillator</TEXT>
+    </TEXT11>
+    <TEXT12>
+      <MASK>0x0F</MASK>
+      <VALUE>0x04</VALUE>
+      <TEXT>CKSEL=0100 Internal RC Ocsillator</TEXT>
+    </TEXT12>
+    <TEXT13>
+      <MASK>0x0F</MASK>
+      <VALUE>0x03</VALUE>
+      <TEXT>CKSEL=0011 Internal RC Ocsillator</TEXT>
+    </TEXT13>
+    <TEXT14>
+      <MASK>0x0F</MASK>
+      <VALUE>0x02</VALUE>
+      <TEXT>CKSEL=0010 Internal RC Ocsillator ; default value</TEXT>
+    </TEXT14>
+    <TEXT15>
+      <MASK>0x0F</MASK>
+      <VALUE>0x01</VALUE>
+      <TEXT>CKSEL=0001 External Clock</TEXT>
+    </TEXT15>
+    <TEXT16>
+      <MASK>0x0F</MASK>
+      <VALUE>0x00</VALUE>
+      <TEXT>CKSEL=0000 External Clock</TEXT>
+    </TEXT16>
+    <BIT0>
+      <NAME>CKSEL0</NAME>
+    </BIT0>
+    <BIT1>
+      <NAME>CKSEL1</NAME>
+    </BIT1>
+    <BIT2>
+      <NAME>CKSEL2</NAME>
+    </BIT2>
+    <BIT3>
+      <NAME>CKSEL3</NAME>
+    </BIT3>
+    <BIT4>
+      <NAME>XTALGND</NAME>
+    </BIT4>
+    <BIT5>
+      <NAME></NAME>
+    </BIT5>
+    <BIT6>
+      <NAME></NAME>
+    </BIT6>
+    <BIT7>
+      <NAME></NAME>
+    </BIT7>
+    <DEFAULT>0xf2</DEFAULT>
+    <NAME>FUSE0</NAME>
+  </FUSE0>
+  <FUSEBYTES>1</FUSEBYTES>
+  <FUSE1>
+    <NMB_TEXT>3</NMB_TEXT>
+    <TEXT0>
+      <MASK>0x06</MASK>
+      <VALUE>0x06</VALUE>
+      <TEXT>Mode 1: No memory lock features enabled</TEXT>
+    </TEXT0>
+    <TEXT1>
+      <MASK>0x06</MASK>
+      <VALUE>0x04</VALUE>
+      <TEXT>Mode 2: Further programming disabled</TEXT>
+    </TEXT1>
+    <TEXT2>
+      <MASK>0x06</MASK>
+      <VALUE>0x00</VALUE>
+      <TEXT>Mode 3: Further programming and verification disabled</TEXT>
+    </TEXT2>
+    <BIT0>
+      <NAME></NAME>
+    </BIT0>
+    <BIT1>
+      <NAME>LB1</NAME>
+    </BIT1>
+    <BIT2>
+      <NAME>LB2</NAME>
+    </BIT2>
+    <BIT3>
+      <NAME></NAME>
+    </BIT3>
+    <BIT4>
+      <NAME></NAME>
+    </BIT4>
+    <BIT5>
+      <NAME></NAME>
+    </BIT5>
+    <BIT6>
+      <NAME></NAME>
+    </BIT6>
+    <BIT7>
+      <NAME></NAME>
+    </BIT7>
+      <LOCKPOS>1</LOCKPOS>
+    <DEFAULT>0xff</DEFAULT>
+    <NAME>LOCK</NAME>
+  </FUSE1>
+    <OscCal>
+    <OCEntry0>1.2 MHz</OCEntry0>
+    </OscCal>
+ <FuseRPos>3</FuseRPos>
+ <FuseRCMD0>0x58000000</FuseRCMD0>
+ <FuseWPos>1</FuseWPos>
+ <FuseWCMD0>0xac000000</FuseWCMD0>
+ <LockRPos>3</LockRPos>
+ <LockRCMD>0x58000000</LockRCMD>
+ <LockWPos>1</LockWPos>
+ <LockWCMD>0xace00000</LockWCMD>
+</ZFPART>

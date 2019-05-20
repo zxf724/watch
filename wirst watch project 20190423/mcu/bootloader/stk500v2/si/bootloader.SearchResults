@@ -1,0 +1,31 @@
+---- PROGLED_PORT Matches (30 in 1 files) ----
+Stk500boot.c (c:\program files\arduino\hardware\arduino\avr\bootloaders\stk500v2)://*	LED on pin "PROGLED_PIN" on port "PROGLED_PORT"
+Stk500boot.c (c:\program files\arduino\hardware\arduino\avr\bootloaders\stk500v2):	#define PROGLED_PORT	PORTB
+Stk500boot.c (c:\program files\arduino\hardware\arduino\avr\bootloaders\stk500v2):	#define PROGLED_PORT	PORTD
+Stk500boot.c (c:\program files\arduino\hardware\arduino\avr\bootloaders\stk500v2):	#define PROGLED_PORT	PORTE
+Stk500boot.c (c:\program files\arduino\hardware\arduino\avr\bootloaders\stk500v2):	#define PROGLED_PORT	PORTC
+Stk500boot.c (c:\program files\arduino\hardware\arduino\avr\bootloaders\stk500v2):	#define PROGLED_PORT	PORTA
+Stk500boot.c (c:\program files\arduino\hardware\arduino\avr\bootloaders\stk500v2):	#define PROGLED_PORT	PORTA
+Stk500boot.c (c:\program files\arduino\hardware\arduino\avr\bootloaders\stk500v2):	#define PROGLED_PORT	PORTB
+Stk500boot.c (c:\program files\arduino\hardware\arduino\avr\bootloaders\stk500v2):	#define PROGLED_PORT	PORTB
+Stk500boot.c (c:\program files\arduino\hardware\arduino\avr\bootloaders\stk500v2):	#define PROGLED_PORT	PORTB
+Stk500boot.c (c:\program files\arduino\hardware\arduino\avr\bootloaders\stk500v2):	#define PROGLED_PORT	PORTD
+Stk500boot.c (c:\program files\arduino\hardware\arduino\avr\bootloaders\stk500v2):	#define PROGLED_PORT	PORTB
+Stk500boot.c (c:\program files\arduino\hardware\arduino\avr\bootloaders\stk500v2):	#define PROGLED_PORT	PORTA
+Stk500boot.c (c:\program files\arduino\hardware\arduino\avr\bootloaders\stk500v2):	#define PROGLED_PORT	PORTB
+Stk500boot.c (c:\program files\arduino\hardware\arduino\avr\bootloaders\stk500v2):	#define PROGLED_PORT	PORTB
+Stk500boot.c (c:\program files\arduino\hardware\arduino\avr\bootloaders\stk500v2):	#define PROGLED_PORT	PORTG
+Stk500boot.c (c:\program files\arduino\hardware\arduino\avr\bootloaders\stk500v2)://	PROGLED_PORT	&=	~(1<<PROGLED_PIN);	// active low LED ON
+Stk500boot.c (c:\program files\arduino\hardware\arduino\avr\bootloaders\stk500v2):	PROGLED_PORT	|=	(1<<PROGLED_PIN);	// active high LED ON
+Stk500boot.c (c:\program files\arduino\hardware\arduino\avr\bootloaders\stk500v2):		PROGLED_PORT	&=	~(1<<PROGLED_PIN);	// turn LED off
+Stk500boot.c (c:\program files\arduino\hardware\arduino\avr\bootloaders\stk500v2):		PROGLED_PORT	|=	(1<<PROGLED_PIN);	// turn LED on
+Stk500boot.c (c:\program files\arduino\hardware\arduino\avr\bootloaders\stk500v2):				PROGLED_PORT	^=	(1<<PROGLED_PIN);	// turn LED ON
+Stk500boot.c (c:\program files\arduino\hardware\arduino\avr\bootloaders\stk500v2):			PROGLED_PORT	^=	(1<<PROGLED_PIN);	// active high LED ON
+Stk500boot.c (c:\program files\arduino\hardware\arduino\avr\bootloaders\stk500v2):		PROGLED_PORT	&=	~(1<<PROGLED_PIN);	// turn LED off
+Stk500boot.c (c:\program files\arduino\hardware\arduino\avr\bootloaders\stk500v2):		PROGLED_PORT	|=	(1<<PROGLED_PIN);	// turn LED on
+Stk500boot.c (c:\program files\arduino\hardware\arduino\avr\bootloaders\stk500v2):	PROGLED_PORT	&=	~(1<<PROGLED_PIN);	// turn LED off
+Stk500boot.c (c:\program files\arduino\hardware\arduino\avr\bootloaders\stk500v2):	PROGLED_PORT	&=	~(1<<PROGLED_PIN);	// active low LED OFF
+Stk500boot.c (c:\program files\arduino\hardware\arduino\avr\bootloaders\stk500v2)://	PROGLED_PORT	|=	(1<<PROGLED_PIN);	// active high LED OFf
+Stk500boot.c (c:\program files\arduino\hardware\arduino\avr\bootloaders\stk500v2):	PROGLED_PORT	|=	(1<<PROGLED_PIN);	// active high LED ON
+Stk500boot.c (c:\program files\arduino\hardware\arduino\avr\bootloaders\stk500v2):		PROGLED_PORT	&=	~(1<<PROGLED_PIN);	// turn LED off
+Stk500boot.c (c:\program files\arduino\hardware\arduino\avr\bootloaders\stk500v2):		PROGLED_PORT	|=	(1<<PROGLED_PIN);	// turn LED on

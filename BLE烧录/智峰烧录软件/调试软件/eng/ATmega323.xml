@@ -1,0 +1,311 @@
+<ZFPART>
+  <PART_NAME>ATmega323</PART_NAME>
+  <SIGNATURE>0x1e9501</SIGNATURE>
+  <PROG_FLASH>32768</PROG_FLASH>
+  <FlashPageSize>128</FlashPageSize>
+  <EEPROM>1024</EEPROM>
+  <EepromPageSize>4</EepromPageSize>
+  <WD_ERASE>50</WD_ERASE>
+  <WD_Flash>30000</WD_Flash>
+  <WD_EEPROM>50000</WD_EEPROM>
+  <WD_FUSE>9</WD_FUSE>
+  <WD_LOCK>9</WD_LOCK>
+  <WD_RESET>100</WD_RESET>
+  <FUSE0>
+    <NMB_TEXT>19</NMB_TEXT>
+    <TEXT0>
+      <MASK>0x80</MASK>
+      <VALUE>0x00</VALUE>
+      <TEXT>Brown-out detection level at VCC=4.0 V</TEXT>
+    </TEXT0>
+    <TEXT1>
+      <MASK>0x80</MASK>
+      <VALUE>0x80</VALUE>
+      <TEXT>Brown-out detection level at VCC=2.7 V</TEXT>
+    </TEXT1>
+    <TEXT2>
+      <MASK>0x40</MASK>
+      <VALUE>0x00</VALUE>
+      <TEXT>Brown-out detection enabled</TEXT>
+    </TEXT2>
+    <TEXT3>
+      <MASK>0x0F</MASK>
+      <VALUE>0x00</VALUE>
+      <TEXT>CKSEL=0000 External Clock fast rising power</TEXT>
+    </TEXT3>
+    <TEXT4>
+      <MASK>0x0F</MASK>
+      <VALUE>0x01</VALUE>
+      <TEXT>CKSEL=0001 External Clock BOD enabled</TEXT>
+    </TEXT4>
+    <TEXT5>
+      <MASK>0x0F</MASK>
+      <VALUE>0x02</VALUE>
+      <TEXT>CKSEL=0010 Internal RC Ocsillator slowly rising power ; default value</TEXT>
+    </TEXT5>
+    <TEXT6>
+      <MASK>0x0F</MASK>
+      <VALUE>0x03</VALUE>
+      <TEXT>CKSEL=0011 Internal RC Ocsillator fast rising power</TEXT>
+    </TEXT6>
+    <TEXT7>
+      <MASK>0x0F</MASK>
+      <VALUE>0x04</VALUE>
+      <TEXT>CKSEL=0100 Internal RC Oscillator BOD enabled</TEXT>
+    </TEXT7>
+    <TEXT8>
+      <MASK>0x0F</MASK>
+      <VALUE>0x05</VALUE>
+      <TEXT>CKSEL=0101 External RC Oscillator slowly rising power</TEXT>
+    </TEXT8>
+    <TEXT9>
+      <MASK>0x0F</MASK>
+      <VALUE>0x06</VALUE>
+      <TEXT>CKSEL=0110 External RC Oscillator fast rising power</TEXT>
+    </TEXT9>
+    <TEXT10>
+      <MASK>0x0F</MASK>
+      <VALUE>0x07</VALUE>
+      <TEXT>CKSEL=0111 External RC Oscillator BOD enabled</TEXT>
+    </TEXT10>
+    <TEXT11>
+      <MASK>0x0F</MASK>
+      <VALUE>0x08</VALUE>
+      <TEXT>CKSEL=1000 External Low-Frequency Crystal</TEXT>
+    </TEXT11>
+    <TEXT12>
+      <MASK>0x0F</MASK>
+      <VALUE>0x09</VALUE>
+      <TEXT>CKSEL=1001 External Low-Frequency Crystal</TEXT>
+    </TEXT12>
+    <TEXT13>
+      <MASK>0x0F</MASK>
+      <VALUE>0x0A</VALUE>
+      <TEXT>CKSEL=1010 Crystal Oscillator slowly rising power</TEXT>
+    </TEXT13>
+    <TEXT14>
+      <MASK>0x0F</MASK>
+      <VALUE>0x0B</VALUE>
+      <TEXT>CKSEL=1011 Crystal Oscillator fast rising power</TEXT>
+    </TEXT14>
+    <TEXT15>
+      <MASK>0x0F</MASK>
+      <VALUE>0x0C</VALUE>
+      <TEXT>CKSEL=1100 Crystal Oscillator BOD enabled</TEXT>
+    </TEXT15>
+    <TEXT16>
+      <MASK>0x0F</MASK>
+      <VALUE>0x0D</VALUE>
+      <TEXT>CKSEL=1101 Ceramic Resonator/External Clock slowly rising power</TEXT>
+    </TEXT16>
+    <TEXT17>
+      <MASK>0x0F</MASK>
+      <VALUE>0x0E</VALUE>
+      <TEXT>CKSEL=1110 Ceramic Resonator fast rising power</TEXT>
+    </TEXT17>
+    <TEXT18>
+      <MASK>0x0F</MASK>
+      <VALUE>0x0F</VALUE>
+      <TEXT>CKSEL=1111 Ceramic Resonator BOD enabled</TEXT>
+    </TEXT18>
+    <BIT0>
+      <NAME>CKSEL0</NAME>
+    </BIT0>
+    <BIT1>
+      <NAME>CKSEL1</NAME>
+    </BIT1>
+    <BIT2>
+      <NAME>CKSEL2</NAME>
+    </BIT2>
+    <BIT3>
+      <NAME>CKSEL3</NAME>
+    </BIT3>
+    <BIT4>
+      <NAME></NAME>
+    </BIT4>
+    <BIT5>
+      <NAME></NAME>
+    </BIT5>
+    <BIT6>
+      <NAME>BODEN</NAME>
+    </BIT6>
+    <BIT7>
+      <NAME>BODLEVEL</NAME>
+    </BIT7>
+    <DEFAULT>0xf2</DEFAULT>
+    <NAME>FUSE0</NAME>
+  </FUSE0>
+  <FUSE1>
+    <NMB_TEXT>9</NMB_TEXT>
+    <TEXT0>
+      <MASK>0x80</MASK>
+      <VALUE>0x00</VALUE>
+      <TEXT>On-Chip Debug Enabled</TEXT>
+    </TEXT0>
+    <TEXT1>
+      <MASK>0x40</MASK>
+      <VALUE>0x00</VALUE>
+      <TEXT>JTAG Enabled</TEXT>
+    </TEXT1>
+    <TEXT2>
+      <MASK>0x20</MASK>
+      <VALUE>0x00</VALUE>
+      <TEXT>Serial program downloading (SPI) enabled</TEXT>
+    </TEXT2>
+    <TEXT3>
+      <MASK>0x08</MASK>
+      <VALUE>0x00</VALUE>
+      <TEXT>Preserve EEPROM memory during through Chip Erase Cycle</TEXT>
+    </TEXT3>
+    <TEXT4>
+      <MASK>0x06</MASK>
+      <VALUE>0x06</VALUE>
+      <TEXT>Boot Flash section size=256 words Boot start address=$3F00 ; default value</TEXT>
+    </TEXT4>
+    <TEXT5>
+      <MASK>0x06</MASK>
+      <VALUE>0x04</VALUE>
+      <TEXT>Boot Flash section size=512 words Boot start address=$3E00</TEXT>
+    </TEXT5>
+    <TEXT6>
+      <MASK>0x06</MASK>
+      <VALUE>0x02</VALUE>
+      <TEXT>Boot Flash section size=1024 words Boot start address=$3C00</TEXT>
+    </TEXT6>
+    <TEXT7>
+      <MASK>0x06</MASK>
+      <VALUE>0x00</VALUE>
+      <TEXT>Boot Flash section size=2048 words Boot start address=$3800</TEXT>
+    </TEXT7>
+    <TEXT8>
+      <MASK>0x01</MASK>
+      <VALUE>0x00</VALUE>
+      <TEXT>Boot Reset vector Enabled (default address=$0000)</TEXT>
+    </TEXT8>
+    <BIT0>
+      <NAME>BOOTRST</NAME>
+    </BIT0>
+    <BIT1>
+      <NAME>BOOTSZ0</NAME>
+    </BIT1>
+    <BIT2>
+      <NAME>BOOTSZ1</NAME>
+    </BIT2>
+    <BIT3>
+      <NAME>EESAVE</NAME>
+    </BIT3>
+    <BIT4>
+      <NAME></NAME>
+    </BIT4>
+    <BIT5>
+      <NAME>SPIEN</NAME>
+    </BIT5>
+    <BIT6>
+      <NAME>JTAGEN</NAME>
+    </BIT6>
+    <BIT7>
+      <NAME>OCDEN</NAME>
+    </BIT7>
+    <DEFAULT>0x99</DEFAULT>
+    <NAME>FUSE1</NAME>
+  </FUSE1>
+  <FUSEBYTES>2</FUSEBYTES>
+  <FUSE2>
+    <NMB_TEXT>11</NMB_TEXT>
+    <TEXT0>
+      <MASK>0x03</MASK>
+      <VALUE>0x03</VALUE>
+      <TEXT>Mode 1: No memory lock features enabled</TEXT>
+    </TEXT0>
+    <TEXT1>
+      <MASK>0x03</MASK>
+      <VALUE>0x02</VALUE>
+      <TEXT>Mode 2: Further programming disabled</TEXT>
+    </TEXT1>
+    <TEXT2>
+      <MASK>0x03</MASK>
+      <VALUE>0x00</VALUE>
+      <TEXT>Mode 3: Further programming and verification disabled</TEXT>
+    </TEXT2>
+    <TEXT3>
+      <MASK>0x0C</MASK>
+      <VALUE>0x0C</VALUE>
+      <TEXT>Application Protection Mode 1: No lock on SPM and LPM in Application Section</TEXT>
+    </TEXT3>
+    <TEXT4>
+      <MASK>0x0C</MASK>
+      <VALUE>0x08</VALUE>
+      <TEXT>Application Protection Mode 2: SPM prohibited in Application Section</TEXT>
+    </TEXT4>
+    <TEXT5>
+      <MASK>0x0C</MASK>
+      <VALUE>0x00</VALUE>
+      <TEXT>Application Protection Mode 3: LPM and SPM prohibited in Application Section</TEXT>
+    </TEXT5>
+    <TEXT6>
+      <MASK>0x0C</MASK>
+      <VALUE>0x04</VALUE>
+      <TEXT>Application Protection Mode 4: LPM prohibited in Application Section</TEXT>
+    </TEXT6>
+    <TEXT7>
+      <MASK>0x30</MASK>
+      <VALUE>0x30</VALUE>
+      <TEXT>Boot Loader Protection Mode 1: No lock on SPM and LPM in Boot Loader Section</TEXT>
+    </TEXT7>
+    <TEXT8>
+      <MASK>0x30</MASK>
+      <VALUE>0x20</VALUE>
+      <TEXT>Boot Loader Protection Mode 2: SPM prohibited in Boot Loader Section</TEXT>
+    </TEXT8>
+    <TEXT9>
+      <MASK>0x30</MASK>
+      <VALUE>0x00</VALUE>
+      <TEXT>Boot Loader Protection Mode 3: LPM and SPM prohibited in Boot Loader Section</TEXT>
+    </TEXT9>
+    <TEXT10>
+      <MASK>0x30</MASK>
+      <VALUE>0x10</VALUE>
+      <TEXT>Boot Loader Protection Mode 4: LPM prohibited in Boot Loader Section</TEXT>
+    </TEXT10>
+    <BIT0>
+      <NAME>LB1</NAME>
+    </BIT0>
+    <BIT1>
+      <NAME>LB2</NAME>
+    </BIT1>
+    <BIT2>
+      <NAME>BLB01</NAME>
+    </BIT2>
+    <BIT3>
+      <NAME>BLB02</NAME>
+    </BIT3>
+    <BIT4>
+      <NAME>BLB11</NAME>
+    </BIT4>
+    <BIT5>
+      <NAME>BLB12</NAME>
+    </BIT5>
+    <BIT6>
+      <NAME></NAME>
+    </BIT6>
+    <BIT7>
+      <NAME></NAME>
+    </BIT7>
+      <LOCKPOS>3</LOCKPOS>
+    <DEFAULT>0xff</DEFAULT>
+    <NAME>LOCK</NAME>
+  </FUSE2>
+    <OscCal>
+    <OCEntry0>1.0 MHz</OCEntry0>
+    </OscCal>
+ <FuseRPos>3</FuseRPos>
+ <FuseRCMD0>0x50000000</FuseRCMD0>
+ <FuseRCMD1>0x58080000</FuseRCMD1>
+ <FuseWPos>3</FuseWPos>
+ <FuseWCMD0>0xaca00000</FuseWCMD0>
+ <FuseWCMD1>0xaca80000</FuseWCMD1>
+ <LockRPos>3</LockRPos>
+ <LockRCMD>0x58000000</LockRCMD>
+ <LockWPos>3</LockWPos>
+ <LockWCMD>0xace00000</LockWCMD>
+</ZFPART>

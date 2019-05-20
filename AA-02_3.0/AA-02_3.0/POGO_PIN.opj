@@ -1,0 +1,42 @@
+(ExpressProject "Design15"
+  (ProjectVersion "19981106")
+  (ProjectType "PCB")
+  (Folder "Design Resources"
+    (Folder "Library")
+    (NoModify)
+    (File
+       "..\users\hj\desktop\afu工作文件\aa-02智能手环\sch&pcb\aa-02_3.0\pogo_pin.dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x"))
+  (Folder "Outputs")
+  (Folder "Referenced Projects")
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Design Resources"
+         "..\users\hj\desktop\afu工作文件\aa-02智能手环\sch&pcb\aa-02_3.0\pogo_pin.dsn")
+      (Path "Design Resources"
+         "..\users\hj\desktop\afu工作文件\aa-02智能手环\sch&pcb\aa-02_3.0\pogo_pin.dsn"
+         "SCHEMATIC1")
+      (Select "Design Resources"
+         "..\users\hj\desktop\afu工作文件\aa-02智能手环\sch&pcb\aa-02_3.0\pogo_pin.dsn"
+         "SCHEMATIC1" "MAIN"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 0 200 0 535"))
+      (Tab 0))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 182 1804 182 756")
+        (Scroll "-148 0")
+        (Zoom "84")
+        (Occurrence "/"))
+      (Path
+         "C:\USERS\HJ\DESKTOP\AFU工作文件\AA-02智能手环\SCH&PCB\AA-02_3.0\POGO_PIN.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "MAIN")))
+  (PartMRUSelector))

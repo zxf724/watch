@@ -1,0 +1,45 @@
+目标需求
+1：最终确认开机电路
+2：移除Version1 Steam 的组件：三合一按键，迷你USB连接器，心跳传感器--header4, header3，在背部添加下面额外的焊盘
+3：背部的焊盘连接Pogo-Pin板
+4：添加Reflections项目丝印
+5：重新定位板子顶部RTC电池的位置，使用CR1216电池。
+6：提供原理图，丝印跟踪，PCB文件给Starling
+7，Pogo-Pin 板的需求
+a，定制夹具
+b，Starling会做一个夹具盒子，移除了Steam板子的连接点，Steam板子刚好合适于这个盒子和连接点，连接到其电源，外设和电脑的USB，以便跑Arduino IDE.
+c，Pogo-Pin板子45mm 直径，厚度57mm
+d，包括4mm缺口，以便正确挂载在box里面。
+e，使用0908-4-15-20-75-14-11-0型号或者更小的pin口，如example http://bit.ly/2u8cpY3
+f，每一个焊盘连接点都要有透孔。
+8：给Starling提供MCU BOOTLOADER的源代码
+a，Arduino IDE 1.8.5环境，avr-gcc 4.9.2 compile编译器
+b，编译.hex格式
+c，提供Arduino IDE为Steam板子的配置文件board.txt
+d，BLE cc2540芯片USB协议使用 STK500v2，且波特率为32700（8bits-1stop bit）
+9，给Starling提供BLE程序源码
+a，编译成.HEX文件格式
+b，和 CC-Debugger 兼容以便升级BLE程序
+验收标准
+1：板子和Pogo板子连接
+2：通过win10USB连接Pogo板
+3：Pogo板连接到cc 2540 debug下载器
+4：Pogo板连接到Mega 2560 MCU下载器
+5：Pogo板连接GPS，麦克风，播放器，Mesa放映机，三个小按键，电池，震动电机，心跳传感器
+6：更新 boards.txt
+7，编译BLE单元
+8，编译MCU单元
+9，打开Arduino IDE,打开测试程序，编译下载测试，打开串口中断，运行程序函数
+4月24号签合同
+4月24号提交软件
+5月8号板子修改完成且提交
+5月8号Pogo板子完成且提交
+5月11号提交所有东西给Frank
+5月14号验收
+5月17号发送10套Steam板子和5套Pogo板子。
+所有时间均为中国标准时间（东八区）
+1：签合同支且提交MCU和BLE源码，付1000美金现金。
+2：4月29号，提交板子（提供原理图，PCB图），支付1500美金，经过询问，支付方式为银行转账。
+3：确认标准后银行转账1500美金。
+4：AFU支付快递费，除非预先通知。
+5：AFU同意提供永久性，全球性，不可撤销，全额付款，可转让的使用许可，并分发根据本协议开发的软件和硬件。

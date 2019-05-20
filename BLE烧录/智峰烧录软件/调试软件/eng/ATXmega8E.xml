@@ -1,0 +1,476 @@
+<ZFPART>
+    <PART_NAME>ATXmega128A</PART_NAME>
+    <SIGNATURE>0x1e9742</SIGNATURE>
+    <PROG_FLASH>131072</PROG_FLASH>
+    <PROG_BOOT>8192</PROG_BOOT>
+    <EEPROM>512</EEPROM>
+    <FlashPageSize>256</FlashPageSize>
+    <BootPageSize>256</BootPageSize>
+    <EepromPageSize>32</EepromPageSize>
+  <WD_ERASE>200</WD_ERASE>
+  <WD_Flash>2000</WD_Flash>
+  <WD_Boot>2000</WD_Boot>
+  <WD_EEPROM>15</WD_EEPROM>
+  <WD_FUSE>9</WD_FUSE>
+  <WD_LOCK>9</WD_LOCK>
+  <WD_RESET>50</WD_RESET>
+  <FUSEBYTES>5</FUSEBYTES>
+    
+    <FUSE0>
+        <DEFAULT>0xff</DEFAULT>
+        <NAME>FUSE0</NAME>
+        <BIT7>
+            <NAME>USERID7</NAME>
+        </BIT7>
+        <BIT6>
+            <NAME>USERID6</NAME>
+        </BIT6>
+        <BIT5>
+            <NAME>USERID5</NAME>
+        </BIT5>
+        <BIT4>
+            <NAME>USERID4</NAME>
+        </BIT4>
+        <BIT3>
+            <NAME>USERID3</NAME>
+        </BIT3>
+        <BIT2>
+            <NAME>USERID2</NAME>
+        </BIT2>
+        <BIT1>
+            <NAME>USERID1</NAME>
+        </BIT1>
+        <BIT0>
+            <NAME>USERID0</NAME>
+        </BIT0>
+    </FUSE0>
+    <FUSE1>
+        <DEFAULT>0x00</DEFAULT>
+        <NAME>FUSE1</NAME>
+    <NMB_TEXT>24</NMB_TEXT>
+  <TEXT0>
+    <MASK>0x0f</MASK>
+    <VALUE>0x0</VALUE>
+    <TEXT>WDPER:8 cycles (8ms @ 3.3V)</TEXT>
+  </TEXT0>
+  <TEXT1>
+    <MASK>0x0f</MASK>
+    <VALUE>0x1</VALUE>
+    <TEXT>WDPER:16 cycles (16ms @ 3.3V)</TEXT>
+  </TEXT1>
+  <TEXT2>
+    <MASK>0x0f</MASK>
+    <VALUE>0x2</VALUE>
+    <TEXT>WDPER:32 cycles (32ms @ 3.3V)</TEXT>
+  </TEXT2>
+  <TEXT3>
+    <MASK>0x0f</MASK>
+    <VALUE>0x3</VALUE>
+    <TEXT>WDPER:64 cycles (64ms @ 3.3V)</TEXT>
+  </TEXT3>
+  <TEXT4>
+    <MASK>0x0f</MASK>
+    <VALUE>0x4</VALUE>
+    <TEXT>WDPER:128 cycles (0.125s @ 3.3V)</TEXT>
+  </TEXT4>
+  <TEXT5>
+    <MASK>0x0f</MASK>
+    <VALUE>0x5</VALUE>
+    <TEXT>WDPER:256 cycles (0.25s @ 3.3V)</TEXT>
+  </TEXT5>
+  <TEXT6>
+    <MASK>0x0f</MASK>
+    <VALUE>0x6</VALUE>
+    <TEXT>WDPER:512 cycles (0.5s @ 3.3V)</TEXT>
+  </TEXT6>
+  <TEXT7>
+    <MASK>0x0f</MASK>
+    <VALUE>0x7</VALUE>
+    <TEXT>WDPER:1K cycles (1s @ 3.3V)</TEXT>
+  </TEXT7>
+  <TEXT8>
+    <MASK>0x0f</MASK>
+    <VALUE>0x8</VALUE>
+    <TEXT>WDPER:2K cycles (2s @ 3.3V)</TEXT>
+  </TEXT8>
+  <TEXT9>
+    <MASK>0x0f</MASK>
+    <VALUE>0x9</VALUE>
+    <TEXT>WDPER:4K cycles (4s @ 3.3V)</TEXT>
+  </TEXT9>
+  <TEXT10>
+    <MASK>0x0f</MASK>
+    <VALUE>0xa</VALUE>
+    <TEXT>WDPER:8K cycles (8s @ 3.3V)</TEXT>
+  </TEXT10>
+  <TEXT11>
+    <MASK>0xf0</MASK>
+    <VALUE>0x0</VALUE>
+    <TEXT>WDWPER:8 cycles (8ms @ 3.3V)</TEXT>
+  </TEXT11>
+  <TEXT12>
+    <MASK>0xf0</MASK>
+    <VALUE>0x10</VALUE>
+    <TEXT>WDWPER:16 cycles (16ms @ 3.3V)</TEXT>
+  </TEXT12>
+  <TEXT13>
+    <MASK>0xf0</MASK>
+    <VALUE>0x20</VALUE>
+    <TEXT>WDWPER:32 cycles (32ms @ 3.3V)</TEXT>
+  </TEXT13>
+  <TEXT14>
+    <MASK>0xf0</MASK>
+    <VALUE>0x30</VALUE>
+    <TEXT>WDWPER:64 cycles (64ms @ 3.3V)</TEXT>
+  </TEXT14>
+  <TEXT15>
+    <MASK>0xf0</MASK>
+    <VALUE>0x40</VALUE>
+    <TEXT>WDWPER:128 cycles (0.125s @ 3.3V)</TEXT>
+  </TEXT15>
+  <TEXT16>
+    <MASK>0xf0</MASK>
+    <VALUE>0x50</VALUE>
+    <TEXT>WDWPER:256 cycles (0.25s @ 3.3V)</TEXT>
+  </TEXT16>
+  <TEXT17>
+    <MASK>0xf0</MASK>
+    <VALUE>0x60</VALUE>
+    <TEXT>WDWPER:512 cycles (0.5s @ 3.3V)</TEXT>
+  </TEXT17>
+  <TEXT18>
+    <MASK>0xf0</MASK>
+    <VALUE>0x70</VALUE>
+    <TEXT>WDWPER:1K cycles (1s @ 3.3V)</TEXT>
+  </TEXT18>
+  <TEXT19>
+    <MASK>0xf0</MASK>
+    <VALUE>0x80</VALUE>
+    <TEXT>WDWPER:2K cycles (2s @ 3.3V)</TEXT>
+  </TEXT19>
+  <TEXT20>
+    <MASK>0xf0</MASK>
+    <VALUE>0x90</VALUE>
+    <TEXT>WDWPER:4K cycles (4s @ 3.3V)</TEXT>
+  </TEXT20>
+  <TEXT21>
+    <MASK>0xf0</MASK>
+    <VALUE>0xa0</VALUE>
+    <TEXT>WDWPER:8K cycles (8s @ 3.3V)</TEXT>
+  </TEXT21>
+  <TEXT22>
+    <MASK>0xf0</MASK>
+    <VALUE>0xf0</VALUE>
+    <TEXT>Undefined value: 0xF0</TEXT>
+  </TEXT22>
+  <TEXT23>
+    <MASK>0x0f</MASK>
+    <VALUE>0x0f</VALUE>
+    <TEXT>Undefined value: 0x0F</TEXT>
+  </TEXT23>
+
+        <BIT7>
+            <NAME>WDWPER3</NAME>
+        </BIT7>
+        <BIT6>
+            <NAME>WDWPER2</NAME>
+        </BIT6>
+        <BIT5>
+            <NAME>WDWPER1</NAME>
+        </BIT5>
+        <BIT4>
+            <NAME>WDWPER0</NAME>
+        </BIT4>
+        <BIT3>
+            <NAME>WDPER3</NAME>
+        </BIT3>
+        <BIT2>
+            <NAME>WDPER2</NAME>
+        </BIT2>
+        <BIT1>
+            <NAME>WDPER1</NAME>
+        </BIT1>
+        <BIT0>
+            <NAME>WDPER0</NAME>
+        </BIT0>
+    </FUSE1>
+    <FUSE2>
+        <DEFAULT>0xff</DEFAULT>
+        <NAME>FUSE2</NAME>
+    <NMB_TEXT>5</NMB_TEXT>
+    <TEXT0>
+      <MASK>0x03</MASK>
+      <VALUE>0x03</VALUE>
+      <TEXT>BOD Disabled</TEXT>
+    </TEXT0>
+    <TEXT1>
+      <MASK>0x03</MASK>
+      <VALUE>0x02</VALUE>
+      <TEXT>BOD enabled continuously</TEXT>
+    </TEXT1>
+    <TEXT2>
+      <MASK>0x03</MASK>
+      <VALUE>0x01</VALUE>
+      <TEXT>BOD enabled in sampled mode</TEXT>
+    </TEXT2>
+    <TEXT3>
+      <MASK>0x40</MASK>
+      <VALUE>0x40</VALUE>
+      <TEXT>Application Reset</TEXT>
+    </TEXT3>
+    <TEXT4>
+      <MASK>0x40</MASK>
+      <VALUE>0x00</VALUE>
+      <TEXT>Boot Loader Reset</TEXT>
+    </TEXT4>
+        
+        <BIT6>
+            <NAME>BO0TRST</NAME>
+        </BIT6>
+        <BIT1>
+            <NAME>BODPD1</NAME>
+        </BIT1>
+        <BIT0>
+            <NAME>BODPD0</NAME>
+        </BIT0>        
+    </FUSE2>
+    <FUSE3>
+        <DEFAULT>0xfe</DEFAULT>
+        <NAME>FUSE4</NAME>
+    <NMB_TEXT>6</NMB_TEXT>
+    <TEXT0>
+      <MASK>0x01</MASK>
+      <VALUE>0x00</VALUE>
+      <TEXT>JTAG Enabled;  [JTAGEN=0]</TEXT>
+    </TEXT0>
+    <TEXT1>
+      <MASK>0x02</MASK>
+      <VALUE>0x00</VALUE>
+      <TEXT>Watchdog timer locked;  [WDLOCK=0]</TEXT>
+    </TEXT1>        
+    <TEXT2>
+      <MASK>0x10</MASK>
+      <VALUE>0x00</VALUE>
+      <TEXT>RSTDISBL;  [RSTDISBL=0]</TEXT>
+    </TEXT2>        
+    <TEXT3>
+      <MASK>0x0C</MASK>
+      <VALUE>0x0C</VALUE>
+      <TEXT>0 ms</TEXT>
+    </TEXT3>  
+    <TEXT4>
+      <MASK>0x0C</MASK>
+      <VALUE>0x04</VALUE>
+      <TEXT>4 ms</TEXT>
+    </TEXT4>  
+    <TEXT5>
+      <MASK>0x0C</MASK>
+      <VALUE>0x00</VALUE>
+      <TEXT>64 ms</TEXT>
+    </TEXT5>              
+    
+        <BIT4>
+            <NAME>RSTDISBL</NAME>
+        </BIT4>
+        <BIT3>
+            <NAME>STARTTIME1</NAME>
+        </BIT3>
+        <BIT2>
+            <NAME>STARTTIME0</NAME>
+        </BIT2>
+        <BIT1>
+            <NAME>WDLOCK</NAME>
+        </BIT1>
+        <BIT0>
+            <NAME>JTAGEN</NAME>
+        </BIT0>
+    </FUSE3>
+    <FUSE4>
+        <DEFAULT>0xff</DEFAULT>
+        <NAME>FUSE5</NAME>
+    <NMB_TEXT>12</NMB_TEXT>
+    <TEXT0>
+      <MASK>0x07</MASK>
+      <VALUE>0x07</VALUE>
+      <TEXT>1.6V</TEXT>
+    </TEXT0>
+    <TEXT1>
+      <MASK>0x07</MASK>
+      <VALUE>0x06</VALUE>
+      <TEXT>1.9V</TEXT>
+    </TEXT1>
+    <TEXT2>
+      <MASK>0x07</MASK>
+      <VALUE>0x05</VALUE>
+      <TEXT>2.1V</TEXT>
+    </TEXT2>
+    <TEXT3>
+      <MASK>0x07</MASK>
+      <VALUE>0x04</VALUE>
+      <TEXT>2.4V</TEXT>
+    </TEXT3>
+    <TEXT4>
+      <MASK>0x07</MASK>
+      <VALUE>0x03</VALUE>
+      <TEXT>2.6V</TEXT>
+    </TEXT4>
+    <TEXT5>
+      <MASK>0x07</MASK>
+      <VALUE>0x02</VALUE>
+      <TEXT>2.9V</TEXT>
+    </TEXT5>
+    <TEXT6>
+      <MASK>0x07</MASK>
+      <VALUE>0x01</VALUE>
+      <TEXT>3.2V</TEXT>
+    </TEXT6>
+    <TEXT7>
+      <MASK>0x07</MASK>
+      <VALUE>0x00</VALUE>
+      <TEXT>3.4V</TEXT>
+    </TEXT7>
+    <TEXT8>
+      <MASK>0x08</MASK>
+      <VALUE>0x00</VALUE>
+      <TEXT>Preserve EEPROM memory through the Chip Erase cycle; [EESAVE=0]</TEXT>
+    </TEXT8>
+    <TEXT9>
+      <MASK>0x30</MASK>
+      <VALUE>0x30</VALUE>
+      <TEXT>BOD Disabled</TEXT>
+    </TEXT9>
+    <TEXT10>
+      <MASK>0x30</MASK>
+      <VALUE>0x20</VALUE>
+      <TEXT>BOD enabled continuously</TEXT>
+    </TEXT10>
+    <TEXT11>
+      <MASK>0x30</MASK>
+      <VALUE>0x10</VALUE>
+      <TEXT>BOD enabled in sampled mode</TEXT>
+    </TEXT11>        
+            
+        <BIT5>
+            <NAME>BODACT1</NAME>
+        </BIT5>
+        <BIT4>
+            <NAME>BODACT0</NAME>
+        </BIT4>
+        <BIT3>
+            <NAME>EESAVE</NAME>
+        </BIT3>
+        <BIT2>
+            <NAME>BODLEVEL2</NAME>
+        </BIT2>
+        <BIT1>
+            <NAME>BODLEVEL1</NAME>
+        </BIT1>
+        <BIT0>
+            <NAME>BODLEVEL0</NAME>
+        </BIT0>
+    </FUSE4>
+    <FUSE5>
+        <DEFAULT>0xff</DEFAULT>
+        <NAME>LOCK</NAME>
+    <NMB_TEXT>15</NMB_TEXT>
+    <TEXT0>
+      <MASK>0x03</MASK>
+      <VALUE>0x03</VALUE>
+      <TEXT>No locks</TEXT>
+    </TEXT0>
+    <TEXT1>
+      <MASK>0x03</MASK>
+      <VALUE>0x02</VALUE>
+      <TEXT>Write not allowed</TEXT>
+    </TEXT1>
+    <TEXT2>
+      <MASK>0x03</MASK>
+      <VALUE>0x00</VALUE>
+      <TEXT>Read and write not allowed</TEXT>
+    </TEXT2>        
+    <TEXT3>
+      <MASK>0x0C</MASK>
+      <VALUE>0x0C</VALUE>
+      <TEXT>No locks</TEXT>
+    </TEXT3>    
+    <TEXT4>
+      <MASK>0x0C</MASK>
+      <VALUE>0x08</VALUE>
+      <TEXT>Write not allowed</TEXT>
+    </TEXT4>    
+    <TEXT5>
+      <MASK>0x0C</MASK>
+      <VALUE>0x04</VALUE>
+      <TEXT>Read not allowed</TEXT>
+    </TEXT5>    
+    <TEXT6>
+      <MASK>0x0C</MASK>
+      <VALUE>0x00</VALUE>
+      <TEXT>Read and write not allowed</TEXT>
+    </TEXT6>            
+    <TEXT7>
+      <MASK>0x30</MASK>
+      <VALUE>0x30</VALUE>
+      <TEXT>No locks</TEXT>
+    </TEXT7>    
+    <TEXT8>
+      <MASK>0x30</MASK>
+      <VALUE>0x20</VALUE>
+      <TEXT>Write not allowed</TEXT>
+    </TEXT8>    
+    <TEXT9>
+      <MASK>0x30</MASK>
+      <VALUE>0x10</VALUE>
+      <TEXT>Read not allowed</TEXT>
+    </TEXT9>    
+    <TEXT10>
+      <MASK>0x30</MASK>
+      <VALUE>0x00</VALUE>
+      <TEXT>Read and write not allowed</TEXT>
+    </TEXT10>   
+    <TEXT11>
+      <MASK>0xC0</MASK>
+      <VALUE>0xC0</VALUE>
+      <TEXT>No locks</TEXT>
+    </TEXT11>    
+    <TEXT12>
+      <MASK>0xC0</MASK>
+      <VALUE>0x80</VALUE>
+      <TEXT>Write not allowed</TEXT>
+    </TEXT12>    
+    <TEXT13>
+      <MASK>0xC0</MASK>
+      <VALUE>0x40</VALUE>
+      <TEXT>Read not allowed</TEXT>
+    </TEXT13>    
+    <TEXT14>
+      <MASK>0xC0</MASK>
+      <VALUE>0x00</VALUE>
+      <TEXT>Read and write not allowed</TEXT>
+    </TEXT14>                     
+        <BIT7>
+            <NAME>BLBB1</NAME>
+        </BIT7>
+        <BIT6>
+            <NAME>BLBB0</NAME>
+        </BIT6>
+        <BIT5>
+            <NAME>BLBA1</NAME>
+        </BIT5>
+        <BIT4>
+            <NAME>BLBA0</NAME>
+        </BIT4>
+        <BIT3>
+            <NAME>BLBAT1</NAME>
+        </BIT3>
+        <BIT2>
+            <NAME>BLBAT0</NAME>
+        </BIT2>
+        <BIT1>
+            <NAME>LB1</NAME>
+        </BIT1>
+        <BIT0>
+            <NAME>LB0</NAME>
+        </BIT0>
+    </FUSE5>
+</ZFPART>

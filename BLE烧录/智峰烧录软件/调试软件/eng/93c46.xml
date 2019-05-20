@@ -1,0 +1,11 @@
+<ZFPART>
+  <PART_NAME>AT93c56 16Bits</PART_NAME>
+  <SIGNATURE>0x0</SIGNATURE>
+  <PROG_FLASH>256</PROG_FLASH>
+  <FlashPageSize>16</FlashPageSize>
+  <WD_ERASE>50</WD_ERASE>
+  <WD_Flash>30000</WD_Flash>
+  <FUSEBYTES>0</FUSEBYTES>
+    <OscCal>
+    </OscCal>
+</ZFPART>

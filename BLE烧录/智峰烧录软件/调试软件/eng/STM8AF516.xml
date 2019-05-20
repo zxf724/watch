@@ -1,0 +1,15 @@
+<ZFPART>
+  <PART_NAME>STM8AF516</PART_NAME>
+  <SIGNATURE>0x0</SIGNATURE>
+  <PROG_FLASH>32768</PROG_FLASH>
+  <FlashPageSize>128</FlashPageSize>
+  <EEPROM>1024</EEPROM>
+  <EepromPageSize>1</EepromPageSize>
+  <WD_ERASE>50</WD_ERASE>
+  <WD_Flash>30000</WD_Flash>
+  <WD_EEPROM>50000</WD_EEPROM>
+  <WD_RESET>100</WD_RESET>
+  <FUSEBYTES>0</FUSEBYTES>
+    <OscCal>
+    </OscCal>
+</ZFPART>

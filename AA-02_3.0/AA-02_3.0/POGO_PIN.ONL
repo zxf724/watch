@@ -1,0 +1,597 @@
+(PCB POGO_PIN
+ (description
+  (timeStamp "2019 05 10 08 45 35")
+  (program "CAPTURE.EXE" (Version "16.3.0.p002"))
+  (source "Original data from OrCAD/CAPTURE schematic")
+  (title "")
+  (date "May 10, 2019")
+  (document "C:\\USERS\\HJ\\DESKTOP\\AFU工作文件\\AA-02智能手环\\SCH&PCB\\AA-02_3.0\\POGO_PIN.DSN")
+  (revision "")
+  (organization "")
+  (address1 "")
+  (address2 "")
+  (address3 "")
+  (address4 "")
+  (partvaluecombine "{Value}")
+  (pcbfootprintcombine "{PCB Footprint}"))
+ (structure )
+ (placement
+  (component CON1_0
+   (place GND10
+    (property 
+     ("PCB Footprint" "CON-SIP-1P_MINI")
+     (timestamp 010004CB)
+     ("Part Number" "Do not assembly.")
+     ("Source Package" CON1_0)
+     (Value TESTPOINT)
+     ("Part Manufacture" "---")))
+   (place GND11
+    (property 
+     ("PCB Footprint" "CON-SIP-1P_MINI")
+     (timestamp 01000253)
+     ("Part Number" "Do not assembly.")
+     ("Source Package" CON1_0)
+     (Value TESTPOINT)
+     ("Part Manufacture" "---")))
+   (place GND12
+    (property 
+     ("PCB Footprint" "CON-SIP-1P_MINI")
+     (timestamp 0100024E)
+     ("Part Number" "Do not assembly.")
+     ("Source Package" CON1_0)
+     (Value TESTPOINT)
+     ("Part Manufacture" "---")))
+   (place GND13
+    (property 
+     ("PCB Footprint" "CON-SIP-1P_MINI")
+     (timestamp 0100025D)
+     ("Part Number" "Do not assembly.")
+     ("Source Package" CON1_0)
+     (Value TESTPOINT)
+     ("Part Manufacture" "---")))
+   (place GND14
+    (property 
+     ("PCB Footprint" "CON-SIP-1P_MINI")
+     (timestamp 01000258)
+     ("Part Number" "Do not assembly.")
+     ("Source Package" CON1_0)
+     (Value TESTPOINT)
+     ("Part Manufacture" "---")))
+   (place GND15
+    (property 
+     ("PCB Footprint" "CON-SIP-1P_MINI")
+     (timestamp 0100136F)
+     ("Part Number" "Do not assembly.")
+     ("Source Package" CON1_0)
+     (Value TESTPOINT)
+     ("Part Manufacture" "---")))
+   (place GND16
+    (property 
+     ("PCB Footprint" "CON-SIP-1P_MINI")
+     (timestamp 010002DE)
+     ("Part Number" "Do not assembly.")
+     ("Source Package" CON1_0)
+     (Value TESTPOINT)
+     ("Part Manufacture" "---")))
+   (place GND17
+    (property 
+     ("PCB Footprint" "CON-SIP-1P_MINI")
+     (timestamp 010002E3)
+     ("Part Number" "Do not assembly.")
+     ("Source Package" CON1_0)
+     (Value TESTPOINT)
+     ("Part Manufacture" "---")))
+   (place GND18
+    (property 
+     ("PCB Footprint" "CON-SIP-1P_MINI")
+     (timestamp 0100137B)
+     ("Part Number" "Do not assembly.")
+     ("Source Package" CON1_0)
+     (Value TESTPOINT)
+     ("Part Manufacture" "---")))
+   (place GND19
+    (property 
+     ("PCB Footprint" "CON-SIP-1P_MINI")
+     (timestamp 01001387)
+     ("Part Number" "Do not assembly.")
+     ("Source Package" CON1_0)
+     (Value TESTPOINT)
+     ("Part Manufacture" "---")))
+   (place GND2
+    (property 
+     ("PCB Footprint" "CON-SIP-1P_MINI")
+     (timestamp 01000175)
+     ("Part Number" "Do not assembly.")
+     ("Source Package" CON1_0)
+     (Value TESTPOINT)
+     ("Part Manufacture" "---")))
+   (place GND3
+    (property 
+     ("PCB Footprint" "CON-SIP-1P_MINI")
+     (timestamp 0100017A)
+     ("Part Number" "Do not assembly.")
+     ("Source Package" CON1_0)
+     (Value TESTPOINT)
+     ("Part Manufacture" "---")))
+   (place GND4
+    (property 
+     ("PCB Footprint" "CON-SIP-1P_MINI")
+     (timestamp 0100017F)
+     ("Part Number" "Do not assembly.")
+     ("Source Package" CON1_0)
+     (Value TESTPOINT)
+     ("Part Manufacture" "---")))
+   (place GND5
+    (property 
+     ("PCB Footprint" "CON-SIP-1P_MINI")
+     (timestamp 01000184)
+     ("Part Number" "Do not assembly.")
+     ("Source Package" CON1_0)
+     (Value TESTPOINT)
+     ("Part Manufacture" "---")))
+   (place GND6
+    (property 
+     ("PCB Footprint" "CON-SIP-1P_MINI")
+     (timestamp 01000189)
+     ("Part Number" "Do not assembly.")
+     ("Source Package" CON1_0)
+     (Value TESTPOINT)
+     ("Part Manufacture" "---")))
+   (place GND7
+    (property 
+     ("PCB Footprint" "CON-SIP-1P_MINI")
+     (timestamp 0100018E)
+     ("Part Number" "Do not assembly.")
+     ("Source Package" CON1_0)
+     (Value TESTPOINT)
+     ("Part Manufacture" "---")))
+   (place GND8
+    (property 
+     ("PCB Footprint" "CON-SIP-1P_MINI")
+     (timestamp 010004C1)
+     ("Part Number" "Do not assembly.")
+     ("Source Package" CON1_0)
+     (Value TESTPOINT)
+     ("Part Manufacture" "---")))
+   (place GND9
+    (property 
+     ("PCB Footprint" "CON-SIP-1P_MINI")
+     (timestamp 010004C6)
+     ("Part Number" "Do not assembly.")
+     ("Source Package" CON1_0)
+     (Value TESTPOINT)
+     ("Part Manufacture" "---")))
+   (place GND20
+    (property 
+     ("PCB Footprint" "CON-SIP-1P_MINI")
+     (timestamp 010013B6)
+     ("Part Number" "Do not assembly.")
+     ("Source Package" CON1_0)
+     (Value TESTPOINT)
+     ("Part Manufacture" "---")))
+   (place GND21
+    (property 
+     ("PCB Footprint" "CON-SIP-1P_MINI")
+     (timestamp 01000262)
+     ("Part Number" "Do not assembly.")
+     ("Source Package" CON1_0)
+     (Value TESTPOINT)
+     ("Part Manufacture" "---")))
+   (place GND24
+    (property 
+     ("PCB Footprint" "CON-SIP-1P_MINI")
+     (timestamp 010007EE)
+     ("Part Number" "Do not assembly.")
+     ("Source Package" CON1_0)
+     (Value TESTPOINT)
+     ("Part Manufacture" "---")))
+   (place GND25
+    (property 
+     ("PCB Footprint" "CON-SIP-1P_MINI")
+     (timestamp 010007F8)
+     ("Part Number" "Do not assembly.")
+     ("Source Package" CON1_0)
+     (Value TESTPOINT)
+     ("Part Manufacture" "---")))
+   (place GND26
+    (property 
+     ("PCB Footprint" "CON-SIP-1P_MINI")
+     (timestamp 01000802)
+     ("Part Number" "Do not assembly.")
+     ("Source Package" CON1_0)
+     (Value TESTPOINT)
+     ("Part Manufacture" "---")))
+   (place GND27
+    (property 
+     ("PCB Footprint" "CON-SIP-1P_MINI")
+     (timestamp 01000A69)
+     ("Part Number" "Do not assembly.")
+     ("Source Package" CON1_0)
+     (Value TESTPOINT)
+     ("Part Manufacture" "---")))
+   (place GND28
+    (property 
+     ("PCB Footprint" "CON-SIP-1P_MINI")
+     (timestamp 010007FD)
+     ("Part Number" "Do not assembly.")
+     ("Source Package" CON1_0)
+     (Value TESTPOINT)
+     ("Part Manufacture" "---")))
+   (place GND29
+    (property 
+     ("PCB Footprint" "CON-SIP-1P_MINI")
+     (timestamp 01000A6E)
+     ("Part Number" "Do not assembly.")
+     ("Source Package" CON1_0)
+     (Value TESTPOINT)
+     ("Part Manufacture" "---")))
+   (place GND30
+    (property 
+     ("PCB Footprint" "CON-SIP-1P_MINI")
+     (timestamp 01000A95)
+     ("Part Number" "Do not assembly.")
+     ("Source Package" CON1_0)
+     (Value TESTPOINT)
+     ("Part Manufacture" "---")))
+   (place GND31
+    (property 
+     ("PCB Footprint" "CON-SIP-1P_MINI")
+     (timestamp 01000A9A)
+     ("Part Number" "Do not assembly.")
+     ("Source Package" CON1_0)
+     (Value TESTPOINT)
+     ("Part Manufacture" "---")))
+   (place GND32
+    (property 
+     ("PCB Footprint" "CON-SIP-1P_MINI")
+     (timestamp 01000AC9)
+     ("Part Number" "Do not assembly.")
+     ("Source Package" CON1_0)
+     (Value TESTPOINT)
+     ("Part Manufacture" "---")))
+   (place GND33
+    (property 
+     ("PCB Footprint" "CON-SIP-1P_MINI")
+     (timestamp 01000ACE)
+     ("Part Number" "Do not assembly.")
+     ("Source Package" CON1_0)
+     (Value TESTPOINT)
+     ("Part Manufacture" "---")))
+   (place GND34
+    (property 
+     ("PCB Footprint" "CON-SIP-1P_MINI")
+     (timestamp 01000E2C)
+     ("Part Number" "Do not assembly.")
+     ("Source Package" CON1_0)
+     (Value TESTPOINT)
+     ("Part Manufacture" "---")))
+   (place GND35
+    (property 
+     ("PCB Footprint" "CON-SIP-1P_MINI")
+     (timestamp 01000E31)
+     ("Part Number" "Do not assembly.")
+     ("Source Package" CON1_0)
+     (Value TESTPOINT)
+     ("Part Manufacture" "---")))
+   (place GND36
+    (property 
+     ("PCB Footprint" "CON-SIP-1P_MINI")
+     (timestamp 01000E36)
+     ("Part Number" "Do not assembly.")
+     ("Source Package" CON1_0)
+     (Value TESTPOINT)
+     ("Part Manufacture" "---")))
+   (place GND37
+    (property 
+     ("PCB Footprint" "CON-SIP-1P_MINI")
+     (timestamp 01000E7B)
+     ("Part Number" "Do not assembly.")
+     ("Source Package" CON1_0)
+     (Value TESTPOINT)
+     ("Part Manufacture" "---")))
+   (place GND38
+    (property 
+     ("PCB Footprint" "CON-SIP-1P_MINI")
+     (timestamp 01000E80)
+     ("Part Number" "Do not assembly.")
+     ("Source Package" CON1_0)
+     (Value TESTPOINT)
+     ("Part Manufacture" "---")))
+   (place GND39
+    (property 
+     ("PCB Footprint" "CON-SIP-1P_MINI")
+     (timestamp 01000E85)
+     ("Part Number" "Do not assembly.")
+     ("Source Package" CON1_0)
+     (Value TESTPOINT)
+     ("Part Manufacture" "---"))))
+  (component "HEADER 4"
+   (place J8
+    (property 
+     ("PCB Footprint" FPC1.0MM_4P)
+     (timestamp 0100036E)
+     ("Source Package" "HEADER 4")
+     (Value "HEADER 4"))))
+  (component "micUSB-SMD_0"
+   (place J6
+    (property 
+     ("PCB Footprint" U521_DIP_N64)
+     (timestamp 0100008B)
+     ("Source Package" "micUSB-SMD_0")
+     (Value "micro-USB")))))
+ (library
+  (image CON1_0
+   (property 
+    (sourcelib "C:\\DOCUMENTS AND SETTINGS\\MASAMI YOKOYAMA\\DESKTOP\\TW8832 SCH AND PCB\\TW8832_MAIN_REV1.DSN"))
+   (pin 999 1
+    (property 
+     (pinname 1)
+     (pintype 4))))
+  (image "micUSB-SMD_0"
+   (property 
+    (sourcelib F:\\004_N2\\N2\\N2_RXD\\DSN\\N2_RXD_V1.0_0714_1.DSN))
+   (pin 999 1
+    (property 
+     (pinname VCC)
+     (pintype 4)))
+   (pin 999 2
+    (property 
+     (pinname "D-")
+     (pintype 4)))
+   (pin 999 3
+    (property 
+     (pinname D+)
+     (pintype 4)))
+   (pin 999 4
+    (property 
+     (pinname SE)
+     (pintype 4)))
+   (pin 999 5
+    (property 
+     (pinname GND)
+     (pintype 4)))
+   (pin 999 6
+    (property 
+     (pinname G6)
+     (pintype 4)))
+   (pin 999 7
+    (property 
+     (pinname G7)
+     (pintype 4)))
+   (pin 999 8
+    (property 
+     (pinname G8)
+     (pintype 4)))
+   (pin 999 9
+    (property 
+     (pinname G9)
+     (pintype 4)))
+   (pin 999 10
+    (property 
+     (pinname G10)
+     (pintype 4)))
+   (pin 999 11
+    (property 
+     (pinname G11)
+     (pintype 4))))
+  (image "HEADER 4"
+   (property 
+    (sourcelib C:\\USERS\\HJ\\DESKTOP\\AFU工作文件\\原理图PCB库\\ORCAD原理图库\\ORCAD_LIBRARY\\CONNECTOR.OLB))
+   (pin 999 1
+    (property 
+     (pinname 1)
+     (pintype 4)))
+   (pin 999 2
+    (property 
+     (pinname 2)
+     (pintype 4)))
+   (pin 999 3
+    (property 
+     (pinname 3)
+     (pintype 4)))
+   (pin 999 4
+    (property 
+     (pinname 4)
+     (pintype 4)))))
+ (network
+  (net 3V3
+    (property 
+     (nettype S)
+     (Color Default)
+     ("Line Style" Default)
+     ("Line Width" Default))
+   (pins
+     GND2-1 GND11-1 J8-2 GND35-1))
+  (net CENTER_KEY11
+    (property 
+     (Color Default)
+     ("Line Style" Default)
+     ("Line Width" Default))
+   (pins
+     GND25-1))
+  (net DC
+    (property 
+     (Color Default)
+     ("Line Style" Default)
+     ("Line Width" Default))
+   (pins
+     GND14-1))
+  (net DD
+    (property 
+     (Color Default)
+     ("Line Style" Default)
+     ("Line Width" Default))
+   (pins
+     GND21-1))
+  (net GND
+    (property 
+     (nettype S)
+     (Color Default)
+     ("Line Style" Default)
+     ("Line Width" Default))
+   (pins
+     J6-5 J6-6 J6-7 J6-8 J6-9 J6-10 J6-11 GND3-1 GND12-1
+     J8-3 J8-4 GND10-1 GND28-1 GND36-1 GND39-1 GND20-1))
+  (net LED_DAT
+    (property 
+     (Color Default)
+     ("Line Style" Default)
+     ("Line Width" Default))
+   (pins
+     GND38-1))
+  (net LEFT_KEY
+    (property 
+     (Color Default)
+     ("Line Style" Default)
+     ("Line Width" Default))
+   (pins
+     GND24-1))
+  (net M+
+    (property 
+     (Color Default)
+     ("Line Style" Default)
+     ("Line Width" Default))
+   (pins
+     GND29-1))
+  (net "M-"
+    (property 
+     (Color Default)
+     ("Line Style" Default)
+     ("Line Width" Default))
+   (pins
+     GND27-1))
+  (net MCU_RESET
+    (property 
+     (Color Default)
+     ("Line Style" Default)
+     ("Line Width" Default))
+   (pins
+     GND7-1))
+  (net MIC+
+    (property 
+     (Color Default)
+     ("Line Style" Default)
+     ("Line Width" Default))
+   (pins
+     GND32-1))
+  (net "MIC-"
+    (property 
+     (Color Default)
+     ("Line Style" Default)
+     ("Line Width" Default))
+   (pins
+     GND33-1))
+  (net MISO
+    (property 
+     (Color Default)
+     ("Line Style" Default)
+     ("Line Width" Default))
+   (pins
+     GND6-1))
+  (net MOSI
+    (property 
+     (Color Default)
+     ("Line Style" Default)
+     ("Line Width" Default))
+   (pins
+     GND5-1))
+  (net N16781972
+    (property 
+     (Color Default)
+     ("Line Style" Default)
+     ("Line Width" Default))
+   (pins
+     J6-1 GND15-1))
+  (net N16781978
+    (property 
+     (Color Default)
+     ("Line Style" Default)
+     ("Line Width" Default))
+   (pins
+     J6-2 GND18-1))
+  (net N16781981
+    (property 
+     (Color Default)
+     ("Line Style" Default)
+     ("Line Width" Default))
+   (pins
+     J6-3 GND19-1))
+  (net N_RESET
+    (property 
+     (Color Default)
+     ("Line Style" Default)
+     ("Line Width" Default))
+   (pins
+     GND13-1))
+  (net RIGHT_KEY
+    (property 
+     (Color Default)
+     ("Line Style" Default)
+     ("Line Width" Default))
+   (pins
+     GND26-1))
+  (net RXD1
+    (property 
+     (Color Default)
+     ("Line Style" Default)
+     ("Line Width" Default))
+   (pins
+     GND17-1))
+  (net RXD3
+    (property 
+     (Color Default)
+     ("Line Style" Default)
+     ("Line Width" Default))
+   (pins
+     GND9-1))
+  (net SCK
+    (property 
+     (Color Default)
+     ("Line Style" Default)
+     ("Line Width" Default))
+   (pins
+     GND4-1))
+  (net SENSOR_OUT
+    (property 
+     (Color Default)
+     ("Line Style" Default)
+     ("Line Width" Default))
+   (pins
+     J8-1 GND34-1))
+  (net SPK+
+    (property 
+     (Color Default)
+     ("Line Style" Default)
+     ("Line Width" Default))
+   (pins
+     GND30-1))
+  (net "SPK-"
+    (property 
+     (Color Default)
+     ("Line Style" Default)
+     ("Line Width" Default))
+   (pins
+     GND31-1))
+  (net TXD1
+    (property 
+     (Color Default)
+     ("Line Style" Default)
+     ("Line Width" Default))
+   (pins
+     GND16-1))
+  (net TXD3
+    (property 
+     (Color Default)
+     ("Line Style" Default)
+     ("Line Width" Default))
+   (pins
+     GND8-1))
+  (net VBAT
+    (property 
+     (nettype S)
+     (Color Default)
+     ("Line Style" Default)
+     ("Line Width" Default))
+   (pins
+     GND37-1)))
+)

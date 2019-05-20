@@ -1,0 +1,234 @@
+<ZFPART>
+<PART_NAME>STM8003</PART_NAME>
+<PROG_FLASH>8192</PROG_FLASH>
+<EEPROM>128</EEPROM>
+<OPTIONS>6</OPTIONS>
+<FlashPageSize>64</FlashPageSize>
+<EepromPageSize>64</EepromPageSize>
+<WD_Flash>6000</WD_Flash>
+<WD_EEPROM>9000</WD_EEPROM>
+<WD_RESET>1000</WD_RESET>
+<WD_ERASE>50</WD_ERASE>
+<FUSE0>
+<DEFAULT>0x00</DEFAULT>
+<NAME>ROP</NAME>
+<TEXT0>
+<MASK>0xaa</MASK>
+<VALUE>0x0</VALUE>
+<TEXT>Read Out Protection OFF</TEXT>
+</TEXT0>
+<TEXT1>
+<MASK>0xaa</MASK>
+<VALUE>0xaa</VALUE>
+<TEXT>Read Out Protection On</TEXT>
+</TEXT1>
+</FUSE0>
+<FUSE1>
+<DEFAULT>0x00</DEFAULT>
+<NAME>UBC</NAME>
+<BIT0>
+<NAME>UBC0</NAME>
+</BIT0>
+<BIT1>
+<NAME>UBC1</NAME>
+</BIT1>
+<BIT2>
+<NAME>UBC2</NAME>
+</BIT2>
+<BIT3>
+<NAME>UBC3</NAME>
+</BIT3>
+<BIT4>
+<NAME>UBC4</NAME>
+</BIT4>
+<BIT5>
+<NAME>UBC5</NAME>
+</BIT5>
+<BIT6>
+<NAME>UBC6</NAME>
+</BIT6>
+<BIT7>
+<NAME>UBC7</NAME>
+</BIT7>
+</FUSE1>
+<FUSE2>
+<DEFAULT>0x00</DEFAULT>
+<NAME>OPN2</NAME>
+<TEXT0>
+<MASK>0x01</MASK>
+<VALUE>0x00</VALUE>
+<TEXT>AFR0 Alternate Function Remapping Inactive</TEXT>
+</TEXT0>
+<TEXT1>
+<MASK>0x01</MASK>
+<VALUE>0x01</VALUE>
+<TEXT>Port C5 Alternate Function = TIM2_CH1, Port C6 Alternate Function = TIM1_CH1, Port C7 Alternate Function = TIM1_CH2</TEXT>
+</TEXT1>
+<TEXT2>
+<MASK>0x02</MASK>
+<VALUE>0x00</VALUE>
+<TEXT>AFR1 Alternate Function Remapping inactive</TEXT>
+</TEXT2>
+<TEXT3>
+<MASK>0x02</MASK>
+<VALUE>0x02</VALUE>
+<TEXT>Port A3 Alternate Function = SPI_NSS, Port D2 Alternate Function = TIM2_CH3</TEXT>
+</TEXT3>
+<TEXT4>
+<MASK>0x08</MASK>
+<VALUE>0x00</VALUE>
+<TEXT>AFR3 Alternate Function Remapping inactive</TEXT>
+</TEXT4>
+<TEXT5>
+<MASK>0x08</MASK>
+<VALUE>0x08</VALUE>
+<TEXT>Port C3 Alternate Function = TLI</TEXT>
+</TEXT5>
+<TEXT6>
+<MASK>0x10</MASK>
+<VALUE>0x00</VALUE>
+<TEXT>AFR4 Alternate Function Remapping inactive</TEXT>
+</TEXT6>
+<TEXT7>
+<MASK>0x10</MASK>
+<VALUE>0x10</VALUE>
+<TEXT>Port B4 Alternate Function = ADC_ETR, Port B5 Alternate Function = TIM1_BKIN</TEXT>
+</TEXT7>
+<TEXT8>
+<MASK>0x80</MASK>
+<VALUE>0x00</VALUE>
+<TEXT>AFR7 Alternate Function Remapping inactive</TEXT>
+</TEXT8>
+<TEXT9>
+<MASK>0x80</MASK>
+<VALUE>0x80</VALUE>
+<TEXT>Port C3 Alternate Function = TIM1_CH1N, Port C4 Alternate Function = TIM1_CH2N</TEXT>
+</TEXT9>
+</FUSE2>
+<FUSE3>
+<DEFAULT>0x00</DEFAULT>
+<NAME>OPN3</NAME>
+<TEXT0>
+<MASK>0x01</MASK>
+<VALUE>0x00</VALUE>
+<TEXT>No Reset generated on HALT if WWDG active</TEXT>
+</TEXT0>
+<TEXT1>
+<MASK>0x01</MASK>
+<VALUE>0x01</VALUE>
+<TEXT>Reset generated on HALT if WWDG active</TEXT>
+</TEXT1>
+<TEXT2>
+<MASK>0x02</MASK>
+<VALUE>0x00</VALUE>
+<TEXT>Window Watchdog activated by Software</TEXT>
+</TEXT2>
+<TEXT3>
+<MASK>0x02</MASK>
+<VALUE>0x02</VALUE>
+<TEXT>Window Watchdog activated by Hardware</TEXT>
+</TEXT3>
+<TEXT4>
+<MASK>0x04</MASK>
+<VALUE>0x00</VALUE>
+<TEXT>Independant Watchdog activated by Software</TEXT>
+</TEXT4>
+<TEXT5>
+<MASK>0x04</MASK>
+<VALUE>0x04</VALUE>
+<TEXT>Independant Watchdog activated by Hardware</TEXT>
+</TEXT5>
+<TEXT6>
+<MASK>0x08</MASK>
+<VALUE>0x00</VALUE>
+<TEXT>LSI Clock not available as CPU clock source</TEXT>
+</TEXT6>
+<TEXT7>
+<MASK>0x08</MASK>
+<VALUE>0x08</VALUE>
+<TEXT>LSI Clock available as CPU clock source</TEXT>
+</TEXT7>
+<TEXT8>
+<MASK>0x10</MASK>
+<VALUE>0x00</VALUE>
+<TEXT>3 bit on-the-fly trimming</TEXT>
+</TEXT8>
+<TEXT9>
+<MASK>0x10</MASK>
+<VALUE>0x10</VALUE>
+<TEXT>4 bit on-the-fly trimming</TEXT>
+</TEXT9>
+</FUSE3>
+<FUSE4>
+<DEFAULT>0x00</DEFAULT>
+<NAME>OPN4</NAME>
+<TEXT0>
+<MASK>0x03</MASK>
+<VALUE>0x00</VALUE>
+<TEXT>16MHz to 128KHz Prescaler</TEXT>
+</TEXT0>
+<TEXT1>
+<MASK>0x03</MASK>
+<VALUE>0x01</VALUE>
+<TEXT>16MHz to 128KHz Prescaler</TEXT>
+</TEXT1>
+<TEXT2>
+<MASK>0x03</MASK>
+<VALUE>0x02</VALUE>
+<TEXT>8MHz to 128KHz Prescaler</TEXT>
+</TEXT2>
+<TEXT3>
+<MASK>0x03</MASK>
+<VALUE>0x03</VALUE>
+<TEXT>4MHz to 128KHz Prescaler</TEXT>
+</TEXT3>
+<TEXT4>
+<MASK>0x04</MASK>
+<VALUE>0x00</VALUE>
+<TEXT>LSI clock source selected for AWU</TEXT>
+</TEXT4>
+<TEXT5>
+<MASK>0x04</MASK>
+<VALUE>0x04</VALUE>
+<TEXT>HSE clock source with prescaler selected for AWU</TEXT>
+</TEXT5>
+<TEXT6>
+<MASK>0x08</MASK>
+<VALUE>0x00</VALUE>
+<TEXT>External Crystal connected to OSCIN/OSCOUT</TEXT>
+</TEXT6>
+<TEXT7>
+<MASK>0x08</MASK>
+<VALUE>0x08</VALUE>
+<TEXT>External Clock signal on OSCIN</TEXT>
+</TEXT7>
+</FUSE4>
+<FUSE5>
+<DEFAULT>0x00</DEFAULT>
+<NAME>AFR</NAME>
+<BIT0>
+<NAME>AFR0</NAME>
+</BIT0>
+<BIT1>
+<NAME>AFR1</NAME>
+</BIT1>
+<BIT2>
+<NAME>AFR2</NAME>
+</BIT2>
+<BIT3>
+<NAME>AFR3</NAME>
+</BIT3>
+<BIT4>
+<NAME>AFR4</NAME>
+</BIT4>
+<BIT5>
+<NAME>AFR5</NAME>
+</BIT5>
+<BIT6>
+<NAME>AFR6</NAME>
+</BIT6>
+<BIT7>
+<NAME>AFR7</NAME>
+</BIT7>
+</FUSE5>
+</ZFPART>

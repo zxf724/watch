@@ -1,0 +1,53 @@
+
+--------------------------------------------------
+Checking Schematic: SCHEMATIC1
+--------------------------------------------------
+Checking Electrical Rules 
+
+Checking For Single Node Nets
+WARNING:  [DRC0006]  Net has fewer than two connections TXD3
+                    SCHEMATIC1, MAIN  (6.10, 3.00) 
+WARNING:  [DRC0006]  Net has fewer than two connections M+
+                    SCHEMATIC1, MAIN  (10.30, 2.10) 
+WARNING:  [DRC0006]  Net has fewer than two connections MCU_RESET
+                    SCHEMATIC1, MAIN  (6.20, 2.40) 
+WARNING:  [DRC0006]  Net has fewer than two connections SPK-
+                    SCHEMATIC1, MAIN  (11.90, 1.90) 
+WARNING:  [DRC0006]  Net has fewer than two connections LED_DAT
+                    SCHEMATIC1, MAIN  (8.90, 2.10) 
+WARNING:  [DRC0006]  Net has fewer than two connections MISO
+                    SCHEMATIC1, MAIN  (6.20, 2.30) 
+WARNING:  [DRC0006]  Net has fewer than two connections MOSI
+                    SCHEMATIC1, MAIN  (6.20, 2.20) 
+WARNING:  [DRC0006]  Net has fewer than two connections DD
+                    SCHEMATIC1, MAIN  (2.10, 5.20) 
+WARNING:  [DRC0006]  Net has fewer than two connections M-
+                    SCHEMATIC1, MAIN  (10.00, 2.10) 
+WARNING:  [DRC0006]  Net has fewer than two connections Left_Key
+                    SCHEMATIC1, MAIN  (6.70, 4.60) 
+WARNING:  [DRC0006]  Net has fewer than two connections SCK
+                    SCHEMATIC1, MAIN  (6.20, 2.10) 
+WARNING:  [DRC0006]  Net has fewer than two connections TXD1
+                    SCHEMATIC1, MAIN  (6.10, 2.80) 
+WARNING:  [DRC0006]  Net has fewer than two connections MIC+
+                    SCHEMATIC1, MAIN  (8.00, 4.60) 
+WARNING:  [DRC0006]  Net has fewer than two connections Right_Key
+                    SCHEMATIC1, MAIN  (6.70, 4.80) 
+WARNING:  [DRC0006]  Net has fewer than two connections DC
+                    SCHEMATIC1, MAIN  (2.10, 5.10) 
+WARNING:  [DRC0006]  Net has fewer than two connections N_RESET
+                    SCHEMATIC1, MAIN  (2.10, 5.00) 
+WARNING:  [DRC0006]  Net has fewer than two connections MIC-
+                    SCHEMATIC1, MAIN  (8.00, 4.70) 
+WARNING:  [DRC0006]  Net has fewer than two connections RXD3
+                    SCHEMATIC1, MAIN  (6.10, 3.10) 
+WARNING:  [DRC0006]  Net has fewer than two connections SPK+
+                    SCHEMATIC1, MAIN  (11.90, 1.80) 
+WARNING:  [DRC0006]  Net has fewer than two connections Center_Key11
+                    SCHEMATIC1, MAIN  (6.70, 4.70) 
+WARNING:  [DRC0006]  Net has fewer than two connections RXD1
+                    SCHEMATIC1, MAIN  (6.10, 2.90) 
+WARNING:  [DRC0006]  Net has fewer than two connections VBAT
+                    SCHEMATIC1, MAIN  (7.70, 2.00) 
+
+Checking For Unconnected Bus Nets

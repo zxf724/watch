@@ -1,0 +1,157 @@
+<ZFPART>
+  <PART_NAME>ATtiny15</PART_NAME>
+  <SIGNATURE>0x1e9006</SIGNATURE>
+  <PROG_FLASH>1024</PROG_FLASH>
+  <FlashPageSize>1</FlashPageSize>
+  <EEPROM>64</EEPROM>
+  <EepromPageSize>1</EepromPageSize>
+  <WD_ERASE>50</WD_ERASE>
+  <WD_Flash>30000</WD_Flash>
+  <WD_EEPROM>50000</WD_EEPROM>
+  <WD_FUSE>9</WD_FUSE>
+  <WD_LOCK>9</WD_LOCK>
+  <WD_RESET>100</WD_RESET>
+  <FUSE0>
+    <NMB_TEXT>9</NMB_TEXT>
+    <TEXT0>
+      <MASK>0x80</MASK>
+      <VALUE>0x80</VALUE>
+      <CNTEXT>Brown-out detection level at VCC=2.7 V</CNTEXT>
+      <TEXT>Brown-out detection level at VCC=2.7 V</TEXT>
+    </TEXT0>
+    <TEXT1>
+      <MASK>0x80</MASK>
+      <VALUE>0x00</VALUE>
+      <CNTEXT>Brown-out detection level at VCC=4.0 V</CNTEXT>
+      <TEXT>Brown-out detection level at VCC=4.0 V</TEXT>
+    </TEXT1>
+    <TEXT2>
+      <MASK>0x40</MASK>
+      <VALUE>0x00</VALUE>
+      <CNTEXT>Brown-out detection enabled</CNTEXT>
+      <TEXT>Brown-out detection enabled</TEXT>
+    </TEXT2>
+    <TEXT3>
+      <MASK>0x20</MASK>
+      <VALUE>0x00</VALUE>
+      <CNTEXT>Serial program downloading (SPI) enabled</CNTEXT>
+      <TEXT>Serial program downloading (SPI) enabled</TEXT>
+    </TEXT3>
+    <TEXT4>
+      <MASK>0x10</MASK>
+      <VALUE>0x00</VALUE>
+      <CNTEXT>External reset function of PB5 disabled</CNTEXT>
+      <TEXT>External reset function of PB5 disabled</TEXT>
+    </TEXT4>
+    <TEXT5>
+      <MASK>0x03</MASK>
+      <VALUE>0x03</VALUE>
+      <CNTEXT>CKSEL=11 Very quickly rising power</CNTEXT>
+      <TEXT>CKSEL=11 Very quickly rising power</TEXT>
+    </TEXT5>
+    <TEXT6>
+      <MASK>0x03</MASK>
+      <VALUE>0x02</VALUE>
+      <CNTEXT>CKSEL=10 Quickly rising power</CNTEXT>
+      <TEXT>CKSEL=10 Quickly rising power</TEXT>
+    </TEXT6>
+    <TEXT7>
+      <MASK>0x03</MASK>
+      <VALUE>0x01</VALUE>
+      <CNTEXT>CKSEL=01 Slowly rising power</CNTEXT>
+      <TEXT>CKSEL=01 Slowly rising power</TEXT>
+    </TEXT7>
+    <TEXT8>
+      <MASK>0x03</MASK>
+      <VALUE>0x00</VALUE>
+      <CNTEXT>CKSEL=00 Slowly rising power</CNTEXT>
+      <TEXT>CKSEL=00 Slowly rising power</TEXT>
+    </TEXT8>
+    <BIT0>
+      <NAME>CKSEL0</NAME>
+    </BIT0>
+    <BIT1>
+      <NAME>CKSEL1</NAME>
+    </BIT1>
+    <BIT2>
+      <NAME></NAME>
+    </BIT2>
+    <BIT3>
+      <NAME></NAME>
+    </BIT3>
+    <BIT4>
+      <NAME>RSTDISBL</NAME>
+    </BIT4>
+    <BIT5>
+      <NAME>SPIEN</NAME>
+    </BIT5>
+    <BIT6>
+      <NAME>BODEN</NAME>
+    </BIT6>
+    <BIT7>
+      <NAME>BODLEVEL</NAME>
+    </BIT7>
+    <DEFAULT>0x5c</DEFAULT>
+    <NAME>FUSE0</NAME>
+  </FUSE0>
+  <FUSEBYTES>1</FUSEBYTES>
+  <FUSE1>
+    <NMB_TEXT>3</NMB_TEXT>
+    <TEXT0>
+      <MASK>0x06</MASK>
+      <VALUE>0x06</VALUE>
+      <CNTEXT>无加密(没有使能存储器保护特性)[LB2=1 LB1=1]</CNTEXT>
+      <TEXT>Mode 1: No memory lock features enabled</TEXT>
+    </TEXT0>
+    <TEXT1>
+      <MASK>0x06</MASK>
+      <VALUE>0x04</VALUE>
+      <CNTEXT> 禁止进一步对Flash 和EEPROM 编程[LB2=1 LB1=0]</CNTEXT>
+      <TEXT>Mode 2: Further programming disabled</TEXT>
+    </TEXT1>
+    <TEXT2>
+      <MASK>0x06</MASK>
+      <VALUE>0x00</VALUE>
+      <CNTEXT> 禁止进一步对Flash 和EEPROM 编程及验证[LB2=0 LB1=0]</CNTEXT>
+      <TEXT>Mode 3: Further programming and verification disabled</TEXT>
+    </TEXT2>
+    <BIT0>
+      <NAME></NAME>
+    </BIT0>
+    <BIT1>
+      <NAME>LB1</NAME>
+    </BIT1>
+    <BIT2>
+      <NAME>LB2</NAME>
+    </BIT2>
+    <BIT3>
+      <NAME></NAME>
+    </BIT3>
+    <BIT4>
+      <NAME></NAME>
+    </BIT4>
+    <BIT5>
+      <NAME></NAME>
+    </BIT5>
+    <BIT6>
+      <NAME></NAME>
+    </BIT6>
+    <BIT7>
+      <NAME></NAME>
+    </BIT7>
+      <LOCKPOS>1</LOCKPOS>
+    <DEFAULT>0xff</DEFAULT>
+    <NAME>LOCK</NAME>
+  </FUSE1>
+    <OscCal>
+    <OCEntry0>1.6 MHz</OCEntry0>
+    </OscCal>
+ <FuseRPos>3</FuseRPos>
+ <FuseRCMD0>0x58000000</FuseRCMD0>
+ <FuseWPos>1</FuseWPos>
+ <FuseWCMD0>0xac000000</FuseWCMD0>
+ <LockRPos>3</LockRPos>
+ <LockRCMD>0x58000000</LockRCMD>
+ <LockWPos>1</LockWPos>
+ <LockWCMD>0xac000000</LockWCMD>
+</ZFPART>

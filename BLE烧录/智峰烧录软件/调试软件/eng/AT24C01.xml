@@ -1,0 +1,10 @@
+<ZFPART>
+  <PART_NAME>24C512</PART_NAME>
+  <SIGNATURE>0x0</SIGNATURE>
+  <PROG_FLASH>65536</PROG_FLASH>
+  <FlashPageSize>128</FlashPageSize>
+  <WD_Flash>30000</WD_Flash>
+  <FUSEBYTES>0</FUSEBYTES>
+    <OscCal>
+    </OscCal>
+</ZFPART>

@@ -1,0 +1,55 @@
+<ZFPART>
+  <PART_NAME>AT89S4051</PART_NAME>
+  <SIGNATURE>0x1e43ff</SIGNATURE>
+  <PROG_FLASH>4096</PROG_FLASH>
+  <FlashPageSize>32</FlashPageSize>
+  <EEPROM>32</EEPROM>
+  <EepromPageSize>32</EepromPageSize>
+  <WD_ERASE>50</WD_ERASE>
+  <WD_Flash>30000</WD_Flash>
+  <WD_EEPROM>50000</WD_EEPROM>
+  <WD_FUSE>9</WD_FUSE>
+  <WD_LOCK>9</WD_LOCK>
+  <WD_RESET>100</WD_RESET>
+  <FUSEBYTES>0</FUSEBYTES>
+  <FUSE0>
+    <NMB_TEXT>0</NMB_TEXT>
+    <BIT0>
+      <NAME>LB1</NAME>
+    </BIT0>
+    <BIT1>
+      <NAME>LB2</NAME>
+    </BIT1>
+    <BIT2>
+      <NAME></NAME>
+    </BIT2>
+    <BIT3>
+      <NAME></NAME>
+    </BIT3>
+    <BIT4>
+      <NAME>ISP Ebable</NAME>
+    </BIT4>
+    <BIT5>
+      <NAME>x2 Clock</NAME>
+    </BIT5>
+    <BIT6>
+      <NAME>User Rowe</NAME>
+    </BIT6>
+    <BIT7>
+      <NAME>Osc Bypass</NAME>
+    </BIT7>
+      <LOCKPOS>1</LOCKPOS>
+    <DEFAULT>0xff</DEFAULT>
+    <NAME>LOCK</NAME>
+  </FUSE0>
+    <OscCal>
+    </OscCal>
+ <FuseRPos>3</FuseRPos>
+ <FuseRCMD0>0x41000000</FuseRCMD0>
+ <FuseWPos>1</FuseWPos>
+ <FuseWCMD0>0xac100000</FuseWCMD0>
+ <LockRPos>3</LockRPos>
+ <LockRCMD>0x24000000</LockRCMD>
+ <LockWPos>1</LockWPos>
+ <LockWCMD>0xac000000</LockWCMD>
+</ZFPART>

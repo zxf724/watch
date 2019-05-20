@@ -1,0 +1,273 @@
+<ZFPART>
+  <PART_NAME>ATtiny13A</PART_NAME>
+  <SIGNATURE>0x1e9007</SIGNATURE>
+  <PROG_FLASH>1024</PROG_FLASH>
+  <FlashPageSize>32</FlashPageSize>
+  <EEPROM>64</EEPROM>
+  <EepromPageSize>4</EepromPageSize>
+  <WD_ERASE>50</WD_ERASE>
+  <WD_Flash>30000</WD_Flash>
+  <WD_EEPROM>50000</WD_EEPROM>
+  <WD_FUSE>9</WD_FUSE>
+  <WD_LOCK>9</WD_LOCK>
+  <WD_RESET>100</WD_RESET>
+  <FUSE0>
+    <NMB_TEXT>16</NMB_TEXT>
+    <TEXT0>
+      <MASK>0x80</MASK>
+      <VALUE>0x00</VALUE>
+      <CNTEXT> 使能ISP编程[SPIEN=0]</CNTEXT>
+      <TEXT>Serial program downloading (SPI) enabled; [SPIEN=0]</TEXT>
+    </TEXT0>
+    <TEXT1>
+      <MASK>0x40</MASK>
+      <VALUE>0x00</VALUE>
+      <CNTEXT> 执行芯片擦除时保留EEPROM的内容[EESAVE=0]</CNTEXT>
+      <TEXT>Preserve EEPROM memory through the Chip Erase cycle; [EESAVE=0]</TEXT>
+    </TEXT1>
+    <TEXT2>
+      <MASK>0x20</MASK>
+      <VALUE>0x00</VALUE>
+      <CNTEXT> 看门狗定时器一直启用[WDTON=0]</CNTEXT>
+      <TEXT>Watch-dog Timer always on; [WDTON=0]</TEXT>
+    </TEXT2>
+    <TEXT3>
+      <MASK>0x10</MASK>
+      <VALUE>0x00</VALUE>
+      <CNTEXT> 系统时钟8分频[CKDIV8=0]</CNTEXT>
+      <TEXT>Divide clock by 8 internally; [CKDIV8=0]</TEXT>
+    </TEXT3>
+    <TEXT4>
+      <MASK>0x0F</MASK>
+      <VALUE>0x00</VALUE>
+      <CNTEXT> 外部时钟;起动时间14CK+0ms[CKSEL=00 SUT=00]</CNTEXT>
+      <TEXT>Ext. Clock; Start-up time: 14 CK + 0 ms; [CKSEL=00 SUT=00]</TEXT>
+    </TEXT4>
+    <TEXT5>
+      <MASK>0x0F</MASK>
+      <VALUE>0x04</VALUE>
+      <CNTEXT> 外部时钟;起动时间14CK+4ms[CKSEL=00 SUT=01]</CNTEXT>
+      <TEXT>Ext. Clock; Start-up time: 14 CK + 4 ms; [CKSEL=00 SUT=01]</TEXT>
+    </TEXT5>
+    <TEXT6>
+      <MASK>0x0F</MASK>
+      <VALUE>0x08</VALUE>
+      <CNTEXT> 外部时钟;起动时间14CK+64ms[CKSEL=00 SUT=10]</CNTEXT>
+      <TEXT>Ext. Clock; Start-up time: 14 CK + 64 ms; [CKSEL=00 SUT=10]</TEXT>
+    </TEXT6>
+    <TEXT7>
+      <MASK>0x0F</MASK>
+      <VALUE>0x01</VALUE>
+      <CNTEXT> 内部RC振荡器(4.8MHz);起动时间14CK+0ms[CKSEL=01 SUT=00]</CNTEXT>
+      <TEXT>Int. RC Osc. 4.8 MHz; Start-up time: 14 CK + 0 ms; [CKSEL=01 SUT=00] </TEXT>
+    </TEXT7>
+    <TEXT8>
+      <MASK>0x0F</MASK>
+      <VALUE>0x05</VALUE>
+      <CNTEXT> 内部RC振荡器(4.8MHz);起动时间14CK+4ms[CKSEL=01 SUT=01]</CNTEXT>
+      <TEXT>Int. RC Osc. 4.8 MHz; Start-up time: 14 CK + 4 ms; [CKSEL=01 SUT=01] </TEXT>
+    </TEXT8>
+    <TEXT9>
+      <MASK>0x0F</MASK>
+      <VALUE>0x09</VALUE>
+      <CNTEXT> 内部RC振荡器(4.8MHz);起动时间14CK+64ms[CKSEL=01 SUT=10]</CNTEXT>
+      <TEXT>Int. RC Osc. 4.8 MHz; Start-up time: 14 CK + 64 ms; [CKSEL=01 SUT=10]</TEXT>
+    </TEXT9>
+    <TEXT10>
+      <MASK>0x0F</MASK>
+      <VALUE>0x02</VALUE>
+      <CNTEXT> 内部RC振荡器(9.6MHz);起动时间14CK+0ms[CKSEL=10 SUT=00]</CNTEXT>
+      <TEXT>Int. RC Osc. 9.6 MHz; Start-up time: 14 CK + 0 ms; [CKSEL=10 SUT=00] </TEXT>
+    </TEXT10>
+    <TEXT11>
+      <MASK>0x0F</MASK>
+      <VALUE>0x06</VALUE>
+      <CNTEXT> 内部RC振荡器(9.6MHz);起动时间14CK+4ms[CKSEL=10 SUT=01]</CNTEXT>
+      <TEXT>Int. RC Osc. 9.6 MHz; Start-up time: 14 CK + 4 ms; [CKSEL=10 SUT=01] </TEXT>
+    </TEXT11>
+    <TEXT12>
+      <MASK>0x0F</MASK>
+      <VALUE>0x0A</VALUE>
+      <CNTEXT> 内部RC振荡器(9.6MHz);起动时间14CK+64ms[CKSEL=10 SUT=10]</CNTEXT>
+      <TEXT>Int. RC Osc. 9.6 MHz; Start-up time: 14 CK + 64 ms; [CKSEL=10 SUT=10]; default value</TEXT>
+    </TEXT12>
+    <TEXT13>
+      <MASK>0x0F</MASK>
+      <VALUE>0x03</VALUE>
+      <CNTEXT> 内部RC振荡器(128KHz);起动时间14CK+0ms[CKSEL=11 SUT=00]</CNTEXT>
+      <TEXT>Int. RC Osc. 128 kHz; Start-up time: 14 CK + 0 ms; [CKSEL=11 SUT=00] </TEXT>
+    </TEXT13>
+    <TEXT14>
+      <MASK>0x0F</MASK>
+      <VALUE>0x07</VALUE>
+      <CNTEXT> 内部RC振荡器(128KHz);起动时间14CK+4ms[CKSEL=11 SUT=01]</CNTEXT>
+      <TEXT>Int. RC Osc. 128 kHz; Start-up time: 14 CK + 4 ms; [CKSEL=11 SUT=01] </TEXT>
+    </TEXT14>
+    <TEXT15>
+      <MASK>0x0F</MASK>
+      <VALUE>0x0B</VALUE>
+      <CNTEXT> 内部RC振荡器(128KHz);起动时间14CK+64ms[CKSEL=11 SUT=10]</CNTEXT>
+      <TEXT>Int. RC Osc. 128 kHz; Start-up time: 14 CK + 64 ms; [CKSEL=11 SUT=10]</TEXT>
+    </TEXT15>
+    <BIT0>
+      <NAME>CKSEL0</NAME>
+    </BIT0>
+    <BIT1>
+      <NAME>CKSEL1</NAME>
+    </BIT1>
+    <BIT2>
+      <NAME>SUT0</NAME>
+    </BIT2>
+    <BIT3>
+      <NAME>SUT1</NAME>
+    </BIT3>
+    <BIT4>
+      <NAME>CKDIV8</NAME>
+    </BIT4>
+    <BIT5>
+      <NAME>WDTON</NAME>
+    </BIT5>
+    <BIT6>
+      <NAME>EESAVE</NAME>
+    </BIT6>
+    <BIT7>
+      <NAME>SPIEN</NAME>
+    </BIT7>
+    <DEFAULT>0x6a</DEFAULT>
+    <NAME>FUSE0</NAME>
+  </FUSE0>
+  <FUSE1>
+    <NMB_TEXT>7</NMB_TEXT>
+    <TEXT0>
+      <MASK>0x10</MASK>
+      <VALUE>0x00</VALUE>
+      <CNTEXT> 使能自编程[SELFPRGEN=0]</CNTEXT>
+      <TEXT>Self Programming enable; [SELFPRGEN=0]</TEXT>
+    </TEXT0>
+    <TEXT1>
+      <MASK>0x08</MASK>
+      <VALUE>0x00</VALUE>
+      <CNTEXT>Debug Wire enable; [DWEN=0]</CNTEXT>
+      <TEXT>Debug Wire enable; [DWEN=0]</TEXT>
+    </TEXT1>
+    <TEXT2>
+      <MASK>0x06</MASK>
+      <VALUE>0x00</VALUE>
+      <CNTEXT> 掉电检测电平为4.3V[BODLEVEL=00]</CNTEXT>
+      <TEXT>Brown-out detection level at VCC=4.3 V; [BODLEVEL=00]</TEXT>
+    </TEXT2>
+    <TEXT3>
+      <MASK>0x06</MASK>
+      <VALUE>0x02</VALUE>
+      <CNTEXT> 掉电检测电平为2.7V[BODLEVEL=01]</CNTEXT>
+      <TEXT>Brown-out detection level at VCC=2.7 V; [BODLEVEL=01]</TEXT>
+    </TEXT3>
+    <TEXT4>
+      <MASK>0x06</MASK>
+      <VALUE>0x04</VALUE>
+      <CNTEXT> 掉电检测电平为1.8V[BODLEVEL=10]</CNTEXT>
+      <TEXT>Brown-out detection level at VCC=1.8 V; [BODLEVEL=10]</TEXT>
+    </TEXT4>
+    <TEXT5>
+      <MASK>0x06</MASK>
+      <VALUE>0x06</VALUE>
+      <CNTEXT> 禁用掉电检测[BODLEVEL=11]</CNTEXT>
+      <TEXT>Brown-out detection disabled; [BODLEVEL=11]</TEXT>
+    </TEXT5>
+    <TEXT6>
+      <MASK>0x01</MASK>
+      <VALUE>0x00</VALUE>
+      <CNTEXT> 禁用外部复位，PB5用作I/O口[RSTDISBL=0]</CNTEXT>
+      <TEXT>Reset Disabled (Enable PB5 as i/o pin); [RSTDISBL=0]</TEXT>
+    </TEXT6>
+    <BIT0>
+      <NAME>RSTDISBL</NAME>
+    </BIT0>
+    <BIT1>
+      <NAME>BODLEVEL0</NAME>
+    </BIT1>
+    <BIT2>
+      <NAME>BODLEVEL1</NAME>
+    </BIT2>
+    <BIT3>
+      <NAME>DWEN</NAME>
+    </BIT3>
+    <BIT4>
+      <NAME>SELFPRGEN</NAME>
+    </BIT4>
+    <BIT5>
+      <NAME></NAME>
+    </BIT5>
+    <BIT6>
+      <NAME></NAME>
+    </BIT6>
+    <BIT7>
+      <NAME></NAME>
+    </BIT7>
+    <DEFAULT>0xff</DEFAULT>
+    <NAME>FUSE1</NAME>
+  </FUSE1>
+  <FUSEBYTES>2</FUSEBYTES>
+  <FUSE2>
+    <NMB_TEXT>3</NMB_TEXT>
+    <TEXT0>
+      <MASK>0x03</MASK>
+      <VALUE>0x03</VALUE>
+      <CNTEXT>无加密(没有使能存储器保护特性)[LB2=1 LB1=1]</CNTEXT>
+      <TEXT>Mode 1: No memory lock features enabled</TEXT>
+    </TEXT0>
+    <TEXT1>
+      <MASK>0x03</MASK>
+      <VALUE>0x02</VALUE>
+      <CNTEXT> 禁止进一步对Flash 和EEPROM 编程[LB2=1 LB1=0]</CNTEXT>
+      <TEXT>Mode 2: Further programming disabled</TEXT>
+    </TEXT1>
+    <TEXT2>
+      <MASK>0x03</MASK>
+      <VALUE>0x00</VALUE>
+      <CNTEXT> 禁止进一步对Flash 和EEPROM 编程及验证[LB2=0 LB1=0]</CNTEXT>
+      <TEXT>Mode 3: Further programming and verification disabled</TEXT>
+    </TEXT2>
+    <BIT0>
+      <NAME>LB1</NAME>
+    </BIT0>
+    <BIT1>
+      <NAME>LB2</NAME>
+    </BIT1>
+    <BIT2>
+      <NAME></NAME>
+    </BIT2>
+    <BIT3>
+      <NAME></NAME>
+    </BIT3>
+    <BIT4>
+      <NAME></NAME>
+    </BIT4>
+    <BIT5>
+      <NAME></NAME>
+    </BIT5>
+    <BIT6>
+      <NAME></NAME>
+    </BIT6>
+    <BIT7>
+      <NAME></NAME>
+    </BIT7>
+      <LOCKPOS>3</LOCKPOS>
+    <DEFAULT>0xff</DEFAULT>
+    <NAME>LOCK</NAME>
+  </FUSE2>
+    <OscCal>
+    <OCEntry0>9.6 MHz</OCEntry0>
+    <OCEntry1>4.8 MHz</OCEntry1>
+    </OscCal>
+ <FuseRPos>3</FuseRPos>
+ <FuseRCMD0>0x50000000</FuseRCMD0>
+ <FuseRCMD1>0x58080000</FuseRCMD1>
+ <FuseWPos>3</FuseWPos>
+ <FuseWCMD0>0xaca00000</FuseWCMD0>
+ <FuseWCMD1>0xaca80000</FuseWCMD1>
+ <LockRPos>3</LockRPos>
+ <LockRCMD>0x58000000</LockRCMD>
+ <LockWPos>3</LockWPos>
+ <LockWCMD>0xace00000</LockWCMD>
+</ZFPART>
